@@ -37,7 +37,7 @@
     return gulp.src('src/js/**/*.js')
       .pipe(jshint('.jshintrc'))
       .pipe(jshint.reporter('default'))
-      // .pipe(concat('scripts.js'))
+      .pipe(concat('scripts.js'))
       .pipe(gulp.dest('js'))
       .pipe(rename({ suffix: '.min' }))
       .pipe(uglify())
@@ -54,14 +54,14 @@
   });
 
 // Minify HTML
-  gulp.task('minify', function() {
+  gulp.task('minifyhtml', function() {
     return gulp.src('src/*.php')
       .pipe(htmlmin({collapseWhitespace: true}))
       .pipe(gulp.dest(''))
   });
 
 // Replace
-  gulp.task('replace', ['minify'], function(){
+  gulp.task('minify', ['minifyhtml'], function(){
     gulp.src(['*.php'])
       .pipe(replace('data-bodyclass', '<?php body_class(); ?>'))
       .pipe(gulp.dest(''));
@@ -74,7 +74,7 @@
  
 // Default task
   gulp.task('build', ['clean'], function() {
-      gulp.start('replace', 'sass', 'scripts', 'images');
+      gulp.start('minify', 'sass', 'scripts', 'images');
   });
  
 // Watch
