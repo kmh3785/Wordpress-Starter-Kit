@@ -1,0 +1,175 @@
+/* Shiny Black Skin v3.0 */
+/* UberMenu - Copyright 2011-2014, SevenSpark */
+.ubermenu-skin-shinyblack {
+  font-size: 12px;
+  color: #cccccc;
+}
+.ubermenu-skin-shinyblack .ubermenu-target {
+  color: #dddddd;
+}
+.ubermenu-skin-shinyblack .ubermenu-target-description {
+  color: #cccccc;
+}
+.ubermenu-skin-shinyblack.ubermenu-responsive-toggle {
+  background: #222222;
+  color: #eeeeee;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.ubermenu-skin-shinyblack.ubermenu-responsive-toggle:hover {
+  background: #111111;
+  color: #ffffff;
+}
+.ubermenu-skin-shinyblack {
+  border: 1px solid #000000;
+  background-color: #333333;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #333333), color-stop(50%, #333333), color-stop(50%, #111111));
+  background: -webkit-linear-gradient(top, #333333, #111111);
+  background: -moz-linear-gradient(top, #333333, #111111);
+  background: -ms-linear-gradient(top, #333333, #111111);
+  background: -o-linear-gradient(top, #333333, #111111);
+  -webkit-box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.1);
+  -moz-box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.1);
+  box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.1);
+}
+.ubermenu-skin-shinyblack .ubermenu-item-level-0.ubermenu-current-menu-item > .ubermenu-target,
+.ubermenu-skin-shinyblack .ubermenu-item-level-0.ubermenu-current-menu-parent > .ubermenu-target,
+.ubermenu-skin-shinyblack .ubermenu-item-level-0.ubermenu-current-menu-ancestor > .ubermenu-target {
+  color: #ffffff;
+  background: #000000;
+}
+.ubermenu-skin-shinyblack .ubermenu-item.ubermenu-item-level-0 > .ubermenu-highlight {
+  color: #4d90fe;
+  background: transparent;
+}
+.ubermenu-skin-shinyblack.ubermenu-vertical .ubermenu-item-level-0 > .ubermenu-target {
+  background-color: #333333;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #333333), color-stop(50%, #333333), color-stop(50%, #111111));
+  background: -webkit-linear-gradient(top, #333333, #111111);
+  background: -moz-linear-gradient(top, #333333, #111111);
+  background: -ms-linear-gradient(top, #333333, #111111);
+  background: -o-linear-gradient(top, #333333, #111111);
+  -webkit-box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.1);
+  -moz-box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.1);
+  box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.1);
+}
+.ubermenu-skin-shinyblack .ubermenu-item-level-0 > .ubermenu-target {
+  font-weight: bold;
+  color: #d9d9d9;
+  text-transform: uppercase;
+  border-left: 1px solid #000000;
+  -webkit-box-shadow: inset 1px 0 0 0 rgba(255, 255, 255, 0.1);
+  -moz-box-shadow: inset 1px 0 0 0 rgba(255, 255, 255, 0.1);
+  box-shadow: inset 1px 0 0 0 rgba(255, 255, 255, 0.1);
+}
+.ubermenu-skin-shinyblack .ubermenu-item-level-0:first-child > .ubermenu-target {
+  box-shadow: none;
+}
+.ubermenu-skin-shinyblack .ubermenu-item-level-0:hover > .ubermenu-target,
+.ubermenu-skin-shinyblack .ubermenu-item-level-0.ubermenu-active > .ubermenu-target {
+  background: #111111;
+  color: #ffffff;
+}
+.ubermenu-skin-shinyblack .ubermenu-item-level-0 > .ubermenu-submenu-type-stack > .ubermenu-item > .ubermenu-target {
+  color: #d9d9d9;
+}
+.ubermenu-skin-shinyblack .ubermenu-item-level-0 > .ubermenu-submenu-type-stack > .ubermenu-item > .ubermenu-target:hover {
+  color: #ffffff;
+}
+.ubermenu-skin-shinyblack .ubermenu-submenu.ubermenu-submenu-drop {
+  background: #000000;
+  border: 1px solid #111111;
+}
+.ubermenu-skin-shinyblack.ubermenu-horizontal .ubermenu-item-level-0 > .ubermenu-submenu-drop {
+  border-top: none;
+}
+.ubermenu-skin-shinyblack .ubermenu-tab-content-panel {
+  background: #000000;
+}
+.ubermenu-skin-shinyblack .ubermenu-submenu,
+.ubermenu-skin-shinyblack .ubermenu-submenu .ubermenu-target {
+  color: #d9d9d9;
+}
+.ubermenu-skin-shinyblack .ubermenu-submenu .ubermenu-highlight {
+  color: #4d90fe;
+}
+.ubermenu-skin-shinyblack .ubermenu-submenu .ubermenu-target:hover,
+.ubermenu-skin-shinyblack .ubermenu-submenu .ubermenu-active > .ubermenu-target {
+  color: #ffffff;
+}
+.ubermenu-skin-shinyblack .ubermenu-submenu .ubermenu-target > .ubermenu-target-description {
+  color: #aaaaaa;
+}
+.ubermenu-skin-shinyblack .ubermenu-submenu .ubermenu-active > .ubermenu-target > .ubermenu-target-description {
+  color: #666666;
+}
+.ubermenu-skin-shinyblack .ubermenu-submenu .ubermenu-item-header > .ubermenu-target {
+  font-weight: bold;
+  color: #eeeeee;
+}
+.ubermenu-skin-shinyblack .ubermenu-submenu .ubermenu-item-header.ubermenu-has-submenu-stack > .ubermenu-target {
+  border-bottom: 1px solid #333333;
+}
+.ubermenu-skin-shinyblack .ubermenu-submenu .ubermenu-item-header > .ubermenu-target:hover {
+  color: #ffffff;
+}
+.ubermenu-skin-shinyblack .ubermenu-submenu .ubermenu-current-menu-item > .ubermenu-target {
+  color: #ffffff;
+  background: transparent;
+}
+.ubermenu-nojs.ubermenu-skin-shinyblack .ubermenu-submenu .ubermenu-tabs .ubermenu-tab:hover > .ubermenu-target,
+.ubermenu-skin-shinyblack .ubermenu-submenu .ubermenu-tab.ubermenu-active > .ubermenu-target {
+  background: #333333;
+  color: #eeeeee;
+}
+.ubermenu-skin-shinyblack .ubermenu-tabs-group,
+.ubermenu-skin-shinyblack .ubermenu-tab > .ubermenu-target,
+.ubermenu-skin-shinyblack .ubermenu-tab-content-panel {
+  border-color: #000000;
+}
+.ubermenu-skin-shinyblack .ubermenu-submenu-drop {
+  border-bottom-width: 3px;
+}
+.ubermenu-skin-shinyblack .ubermenu-item .ubermenu-submenu-drop {
+  -webkit-box-sizing: content-box;
+  /* Takes into account borders */
+  -moz-box-sizing: content-box;
+  /* Takes into account borders */
+  -o-box-sizing: content-box;
+  /* Takes into account borders */
+  box-sizing: content-box;
+  /* Takes into account borders */
+}
+/* Drop Sub - Left Edge of Menu Bar */
+.ubermenu-skin-shinyblack.ubermenu-horizontal .ubermenu-submenu-drop.ubermenu-submenu-align-left_edge_bar,
+.ubermenu-skin-shinyblack.ubermenu-horizontal .ubermenu-submenu-drop.ubermenu-submenu-align-full_width {
+  left: -1px;
+  /* for borders */
+}
+/* Drop Sub - Right Edge of Menu Bar */
+.ubermenu-skin-shinyblack.ubermenu-horizontal .ubermenu-submenu-drop.ubermenu-submenu-align-right_edge_bar {
+  right: -1px;
+  /* for borders */
+}
+.ubermenu-skin-shinyblack.ubermenu-horizontal .ubermenu-submenu-drop.ubermenu-submenu-align-full_width.ubermenu-submenu-padded {
+  width: calc(103%);
+  /* because we use box-sizing:border-box */
+}
+.ubermenu-skin-shinyblack.ubermenu-vertical .ubermenu-item-level-0 > .ubermenu-submenu-drop,
+.ubermenu-skin-shinyblack.ubermenu-nojs.ubermenu-vertical .ubermenu-item-level-0:hover > .ubermenu-submenu-drop,
+.ubermenu-skin-shinyblack.ubermenu-vertical .ubermenu-item-level-0.ubermenu-active > .ubermenu-submenu-drop,
+.ubermenu-skin-shinyblack.ubermenu-vertical .ubermenu-active .ubermenu-submenu.ubermenu-submenu-type-flyout .ubermenu-submenu-type-mega {
+  top: -1px;
+}
+.ubermenu-skin-shinyblack.ubermenu-horizontal .ubermenu-item-level-0.ubermenu-active:after {
+  content: '';
+  border-bottom: 1px solid transparent;
+  width: 100%;
+  width: calc(101%);
+  margin-bottom: -1px;
+}
+.ubermenu-skin-shinyblack.ubermenu-horizontal .ubermenu-item-level-0.ubermenu-active > .ubermenu-submenu-drop,
+.ubermenu-skin-shinyblack.ubermenu-horizontal:not(.ubermenu-transition-shift) .ubermenu-item-level-0 > .ubermenu-submenu-drop {
+  margin-top: 1px;
+}

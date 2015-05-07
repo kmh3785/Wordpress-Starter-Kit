@@ -1,0 +1,3540 @@
+# Copyright (C) 2014 Chris Mavricos, SevenSpark
+# This file is distributed under the same license as the UberMenu 3 - The Ultimate WordPress Mega Menu package.
+msgid ""
+msgstr ""
+"Project-Id-Version: UberMenu 3 - The Ultimate WordPress Mega Menu 3.1.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/ubermenu\n"
+"POT-Creation-Date: 2014-12-17 03:03:34+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.4.8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#: admin/custom.menu-item-types.php:51 admin/custom.menu-item-types.php:52
+#: admin/settings.menu-item.php:439 pro/admin/settings.menu-item.pro.php:7
+msgid "Row"
+msgstr ""
+
+#: admin/custom.menu-item-types.php:54
+msgid ""
+"A row which can wrap any type of item.  Useful for creating divisions and "
+"centering submenu contents."
+msgstr ""
+
+#: admin/custom.menu-item-types.php:58 admin/custom.menu-item-types.php:59
+msgid "Column"
+msgstr ""
+
+#: admin/custom.menu-item-types.php:61
+msgid ""
+"A column, which can contain any type of item.  Useful for placing multiple "
+"blocks of items in a single column."
+msgstr ""
+
+#: admin/custom.menu-item-types.php:65
+msgid "Horizontal Divider"
+msgstr ""
+
+#: admin/custom.menu-item-types.php:66 admin/settings.menu-item.php:481
+msgid "Divider"
+msgstr ""
+
+#: admin/custom.menu-item-types.php:68
+msgid "A visual divider between submenu segments."
+msgstr ""
+
+#: admin/migration.php:49
+msgid ""
+"Looks like you've updated to UberMenu 3.  Awesome!  Would you like to "
+"migrate your settings?"
+msgstr ""
+
+#: admin/migration.php:50
+msgid "Begin Migration"
+msgstr ""
+
+#: admin/migration.php:51
+msgid "No, thanks"
+msgstr ""
+
+#: admin/migration.php:74
+msgid "Migration did not complete successfully"
+msgstr ""
+
+#: admin/migration.php:322
+msgid "Successfully migrated Menu Item Settings for Menu: "
+msgstr ""
+
+#: admin/migration.php:742
+msgid "Successfully migrated Control Panel Menu Settings"
+msgstr ""
+
+#: admin/settings.control-panel.php:14 admin/settings.control-panel.php:744
+#: pro/admin/settings.pro.php:12
+msgid "Basic Configuration"
+msgstr ""
+
+#: admin/settings.control-panel.php:24
+msgid "Skin"
+msgstr ""
+
+#: admin/settings.control-panel.php:35
+msgid "Orientation"
+msgstr ""
+
+#: admin/settings.control-panel.php:37
+msgid "Orient the menu vertically or horizontally"
+msgstr ""
+
+#: admin/settings.control-panel.php:41
+msgid "Horizontal"
+msgstr ""
+
+#: admin/settings.control-panel.php:42
+msgid "Vertical"
+msgstr ""
+
+#: admin/settings.control-panel.php:50
+msgid "Vertical Menu Mega Submenu Width"
+msgstr ""
+
+#: admin/settings.control-panel.php:53
+msgid ""
+"600px by default.  Can be overridden on a per submenu basis in the Menu "
+"Item Settings."
+msgstr ""
+
+#: admin/settings.control-panel.php:62 admin/settings.control-panel.php:69
+#: pro/admin/settings.menu-item.pro.php:1097
+msgid "Trigger"
+msgstr ""
+
+#: admin/settings.control-panel.php:71
+msgid "Open the submenu via this trigger"
+msgstr ""
+
+#: admin/settings.control-panel.php:75 pro/admin/settings.menu-item.pro.php:632
+#: pro/admin/settings.menu-item.pro.php:1107
+msgid "Hover"
+msgstr ""
+
+#: admin/settings.control-panel.php:76 pro/admin/settings.menu-item.pro.php:633
+msgid "Hover Intent"
+msgstr ""
+
+#: admin/settings.control-panel.php:77 pro/admin/settings.menu-item.pro.php:634
+#: pro/admin/settings.menu-item.pro.php:1110
+msgid "Click"
+msgstr ""
+
+#: admin/settings.control-panel.php:91
+msgid "Dropdown Transitions"
+msgstr ""
+
+#: admin/settings.control-panel.php:98
+msgid "Transition"
+msgstr ""
+
+#: admin/settings.control-panel.php:99
+msgid "Transitions supported in Chrome, Safari, Firefox, IE10+"
+msgstr ""
+
+#: admin/settings.control-panel.php:102
+#: pro/admin/settings.menu-item.pro.php:260
+#: pro/admin/settings.menu-item.pro.php:414
+#: pro/admin/settings.menu-item.pro.php:1291 pro/widgets.php:90
+msgid "None"
+msgstr ""
+
+#: admin/settings.control-panel.php:103
+msgid "Slide Reveal"
+msgstr ""
+
+#: admin/settings.control-panel.php:104
+msgid "Fade"
+msgstr ""
+
+#: admin/settings.control-panel.php:105
+msgid "Shift Up"
+msgstr ""
+
+#: admin/settings.control-panel.php:114
+msgid "Transition Duration"
+msgstr ""
+
+#: admin/settings.control-panel.php:117
+msgid "You can use <code>.5s</code> or <code>500ms</code>.  Defaults to .3s"
+msgstr ""
+
+#: admin/settings.control-panel.php:137 admin/settings.control-panel.php:747
+#: includes/customizer/customizer.php:90 pro/admin/settings.pro.php:21
+msgid "Descriptions"
+msgstr ""
+
+#: admin/settings.control-panel.php:145
+msgid "Top Level Descriptions"
+msgstr ""
+
+#: admin/settings.control-panel.php:146
+msgid "Allow descriptions on top level menu items."
+msgstr ""
+
+#: admin/settings.control-panel.php:154
+msgid "Header Item Descriptions"
+msgstr ""
+
+#: admin/settings.control-panel.php:155
+msgid "Allow descriptions on header menu items."
+msgstr ""
+
+#: admin/settings.control-panel.php:163
+msgid "Normal Item Descriptions"
+msgstr ""
+
+#: admin/settings.control-panel.php:164
+msgid "Allow descriptions on normal menu items."
+msgstr ""
+
+#: admin/settings.control-panel.php:172
+msgid "Target Divider"
+msgstr ""
+
+#: admin/settings.control-panel.php:173
+msgid ""
+"The character(s) separating the title from the description.  This will not "
+"be visible, but is useful for screen readers."
+msgstr ""
+
+#: admin/settings.control-panel.php:200 pro/admin/settings.pro.php:1812
+msgid "Responsive &amp; Mobile"
+msgstr ""
+
+#: admin/settings.control-panel.php:202
+msgid "Settings for responsiveness &amp; mobile devices"
+msgstr ""
+
+#: admin/settings.control-panel.php:208
+msgid "Responsive Menu"
+msgstr ""
+
+#: admin/settings.control-panel.php:209
+msgid "Uncheck this if you do not want a responsive menu."
+msgstr ""
+
+#: admin/settings.control-panel.php:218 includes/customizer/customizer.php:104
+msgid "Responsive Toggle"
+msgstr ""
+
+#: admin/settings.control-panel.php:219
+msgid "Automatically display a responsive toggle for this menu."
+msgstr ""
+
+#: admin/settings.control-panel.php:227
+msgid "Responsive Toggle Tag"
+msgstr ""
+
+#: admin/settings.control-panel.php:228
+msgid "Anchor by default."
+msgstr ""
+
+#: admin/settings.control-panel.php:242
+msgid "Responsive Toggle Content"
+msgstr ""
+
+#: admin/settings.control-panel.php:243
+msgid "The text to display on the responsive toggle."
+msgstr ""
+
+#: admin/settings.control-panel.php:252
+msgid "Collapse by default"
+msgstr ""
+
+#: admin/settings.control-panel.php:253
+msgid ""
+"Uncheck this if you do not want a responsive toggle, but just want to see "
+"all top level menu items on mobile."
+msgstr ""
+
+#: admin/settings.control-panel.php:261
+msgid "Responsive Max Height (px)"
+msgstr ""
+
+#: admin/settings.control-panel.php:263
+msgid ""
+"Adjusting this to the height of your responsive menu can make the "
+"transition smoother.  500 by default"
+msgstr ""
+
+#: admin/settings.control-panel.php:273
+msgid "Responsive Submenus"
+msgstr ""
+
+#: admin/settings.control-panel.php:280
+msgid "Display Submenu Retractor [Top]"
+msgstr ""
+
+#: admin/settings.control-panel.php:281
+msgid "Display a \"Close\" button at the top of the submenu on mobile devices."
+msgstr ""
+
+#: admin/settings.control-panel.php:289
+msgid "Display Submenu Retractor [Bottom]"
+msgstr ""
+
+#: admin/settings.control-panel.php:290
+msgid "Display a \"Close\" button at the bottom of the submenu on mobile devices."
+msgstr ""
+
+#: admin/settings.control-panel.php:298
+msgid "Submenu Retractor Text"
+msgstr ""
+
+#: admin/settings.control-panel.php:299
+msgid ""
+"By default, the retractor will read \"Close\", and will be translatable.  "
+"You can override it here but it will no longer be translatable."
+msgstr ""
+
+#: admin/settings.control-panel.php:437
+msgid "Custom Styles"
+msgstr ""
+
+#: admin/settings.control-panel.php:444
+msgid "Custom CSS Tweaks"
+msgstr ""
+
+#: admin/settings.control-panel.php:452
+msgid "Custom CSS Tweaks - Mobile"
+msgstr ""
+
+#: admin/settings.control-panel.php:453
+msgid "Styles to apply below the responsive breakpoint only."
+msgstr ""
+
+#: admin/settings.control-panel.php:461
+msgid "Custom CSS Tweaks - Desktop"
+msgstr ""
+
+#: admin/settings.control-panel.php:462
+msgid "Styles to apply above the responsive breakpoint only."
+msgstr ""
+
+#: admin/settings.control-panel.php:479 admin/settings.control-panel.php:721
+#: pro/admin/settings.pro.php:1818
+msgid "Script Configuration"
+msgstr ""
+
+#: admin/settings.control-panel.php:486
+msgid "Touch-off Close"
+msgstr ""
+
+#: admin/settings.control-panel.php:487
+msgid ""
+"Close all submenus when the user clicks or touches off of the menu.  If you "
+"disable this, make sure you leave your users with another way to close the "
+"submenu."
+msgstr ""
+
+#: admin/settings.control-panel.php:496
+msgid "Reposition Submenus on window.load"
+msgstr ""
+
+#: admin/settings.control-panel.php:497
+msgid ""
+"Reposition the Submenus after other assets have loaded.  Useful if using "
+"@font-face fonts in the menu."
+msgstr ""
+
+#: admin/settings.control-panel.php:506
+msgid "Hover Intent Delay"
+msgstr ""
+
+#: admin/settings.control-panel.php:507
+msgid "Time to wait until closing the submenu after hover-out (ms)"
+msgstr ""
+
+#: admin/settings.control-panel.php:515
+msgid "Hover Intent Interval"
+msgstr ""
+
+#: admin/settings.control-panel.php:516
+msgid "Polling interval for mouse comparisons (ms)"
+msgstr ""
+
+#: admin/settings.control-panel.php:524
+msgid "Hover Intent Threshold"
+msgstr ""
+
+#: admin/settings.control-panel.php:525
+msgid ""
+"Maximum number of pixels over the target that the mouse can move (since the "
+"last poll) to be considered an intentional hover"
+msgstr ""
+
+#: admin/settings.control-panel.php:533
+msgid "ScrollTo Offset"
+msgstr ""
+
+#: admin/settings.control-panel.php:534
+msgid "Pixel offset to leave when scrolling."
+msgstr ""
+
+#: admin/settings.control-panel.php:542
+msgid "ScrollTo Duration"
+msgstr ""
+
+#: admin/settings.control-panel.php:543
+msgid ""
+"Duration of the scroll animation in milliseconds.  The actual speed will be "
+"determined by the distance that needs to be traveled.  <em>1000</em> is 1 "
+"second."
+msgstr ""
+
+#: admin/settings.control-panel.php:551
+msgid "Remove JS Conflicts"
+msgstr ""
+
+#: admin/settings.control-panel.php:552
+msgid ""
+"This will disable any event bindings added with jQuery unbind() or off() "
+"before the UberMenu script runs.  If you wish to bind your own events, or "
+"have other scripts act on the menu, you may need to disable this."
+msgstr ""
+
+#: admin/settings.control-panel.php:573 admin/settings.control-panel.php:724
+#: pro/admin/settings.pro.php:42 pro/admin/settings.pro.php:1340
+#: pro/admin/settings.pro.php:1827
+msgid "Miscellaneous"
+msgstr ""
+
+#: admin/settings.control-panel.php:581
+msgid "Show Admin Notices"
+msgstr ""
+
+#: admin/settings.control-panel.php:584
+msgid "Display helpful notices - only to admins"
+msgstr ""
+
+#: admin/settings.control-panel.php:590
+msgid "Enable Accessibility Features"
+msgstr ""
+
+#: admin/settings.control-panel.php:593
+msgid "Allow users to tab through the menu and highlight focused elements"
+msgstr ""
+
+#: admin/settings.control-panel.php:605 admin/settings.control-panel.php:727
+#: pro/admin/settings.pro.php:1833
+msgid "Maintenance"
+msgstr ""
+
+#: admin/settings.control-panel.php:606 pro/admin/settings.pro.php:1399
+#: pro/admin/settings.pro.php:1703
+msgid ""
+"You should only adjust settings in this section if you are certain of what "
+"you are doing."
+msgstr ""
+
+#: admin/settings.control-panel.php:613 admin/settings.control-panel.php:614
+msgid "Migrate Settings"
+msgstr ""
+
+#: admin/settings.control-panel.php:614
+msgid "Migrate UberMenu 2 Settings to UberMenu 3"
+msgstr ""
+
+#: admin/settings.control-panel.php:621
+msgid "Reset ALL Settings"
+msgstr ""
+
+#: admin/settings.control-panel.php:622
+msgid "Reset Settings"
+msgstr ""
+
+#: admin/settings.control-panel.php:622
+msgid "Reset ALL Control Panel settings to the factory defaults."
+msgstr ""
+
+#: admin/settings.control-panel.php:635
+msgid "Lite Mode"
+msgstr ""
+
+#: admin/settings.control-panel.php:636
+msgid ""
+"Use only the basic UberMenu options.  Note that you will lose all non-lite "
+"settings if you switch this on."
+msgstr ""
+
+#: admin/settings.control-panel.php:697
+msgid "Main UberMenu Configuration"
+msgstr ""
+
+#: admin/settings.control-panel.php:714
+msgid "General Settings"
+msgstr ""
+
+#: admin/settings.control-panel.php:718 pro/admin/settings.pro.php:1806
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/settings.control-panel.php:750 pro/admin/settings.pro.php:30
+#: pro/admin/settings.pro.php:1552
+msgid "Responsive & Mobile"
+msgstr ""
+
+#: admin/settings.control-panel.php:878
+msgid "Please paste the data to import."
+msgstr ""
+
+#: admin/settings.control-panel.php:883
+msgid "Could not interpret import data.  Must be a valid JSON string."
+msgstr ""
+
+#: admin/settings.control-panel.php:889
+msgid "Settings imported successfully."
+msgstr ""
+
+#: admin/settings.control-panel.php:899
+msgid "Import Settings for Main UberMenu Configuration"
+msgstr ""
+
+#: admin/settings.control-panel.php:901
+msgid "Import Settings for Configuration:"
+msgstr ""
+
+#: admin/settings.control-panel.php:905
+msgid ""
+"This operation will overwrite all settings for this Configuration.  This "
+"cannot be undone.  This is the only warning/confirmation screen"
+msgstr ""
+
+#: admin/settings.control-panel.php:913
+msgid "Paste your export data here to import the settings into this configuration"
+msgstr ""
+
+#: admin/settings.control-panel.php:918
+msgid "Confirm and Import Settings Now"
+msgstr ""
+
+#: admin/settings.control-panel.php:949
+msgid "Migration completed successfully!"
+msgstr ""
+
+#: admin/settings.control-panel.php:952
+msgid ""
+"Migration error.  You may need to disable safe_mode to complete the "
+"migration."
+msgstr ""
+
+#: admin/settings.control-panel.php:980
+msgid "Sorry, couldn't find any UberMenu 2 settings to migrate"
+msgstr ""
+
+#: admin/settings.control-panel.php:984
+msgid "UberMenu 2 Settings Found"
+msgstr ""
+
+#: admin/settings.control-panel.php:987
+msgid ""
+"Migrating will merge your UberMenu 2 settings into UberMenu 3, giving "
+"precedence to UberMenu 2 settings. This may overwrite existing UberMenu 3 "
+"settings.  Please be sure you wish to proceed, as this process is cannot be "
+"undone.  The process can take some time to complete."
+msgstr ""
+
+#: admin/settings.control-panel.php:1016
+msgid "Confirm &amp; Migrate Settings"
+msgstr ""
+
+#: admin/settings.control-panel.php:1058
+msgid "Style Customizations reset complete!"
+msgstr ""
+
+#: admin/settings.control-panel.php:1079
+msgid ""
+"Please be sure you wish to proceed.  This will delete all Style "
+"Customizations (though not your custom CSS).  This cannot be undone."
+msgstr ""
+
+#: admin/settings.control-panel.php:1088
+msgid "Confirm &amp; Reset Style Customizations"
+msgstr ""
+
+#: admin/settings.control-panel.php:1115
+msgid "Settings reset complete!"
+msgstr ""
+
+#: admin/settings.control-panel.php:1136
+msgid ""
+"Please be sure you wish to proceed.  This will delete all Menu Settings, "
+"including Custom Styles, Instance Settings and General Settings.  This "
+"cannot be undone."
+msgstr ""
+
+#: admin/settings.control-panel.php:1145
+msgid "Confirm &amp; Reset Settings"
+msgstr ""
+
+#: admin/settings.control-panel.php:1284
+msgid "Go Pro"
+msgstr ""
+
+#: admin/settings.control-panel.php:1287 admin/settings.control-panel.php:1426
+msgid "Compare"
+msgstr ""
+
+#: admin/settings.menu-item.php:106
+msgid "Clear the settings for this item."
+msgstr ""
+
+#: admin/settings.menu-item.php:114
+msgid "Set as defaults"
+msgstr ""
+
+#: admin/settings.menu-item.php:116
+msgid ""
+"Set this item's current settings as the default menu item settings for all "
+"menu items (won't affect menu items whose settings have already been "
+"saved).  Be careful - if these aren't set intelligently, it can have "
+"undesirable effects.  After saving menu item, ave/refresh menu to enable "
+"new defaults."
+msgstr ""
+
+#: admin/settings.menu-item.php:120
+msgid "Reset defaults"
+msgstr ""
+
+#: admin/settings.menu-item.php:122
+msgid ""
+"Clear the custom settings defaults and restore the standard defaults.  "
+"After saving menu item, save/refresh menu to reset defaults"
+msgstr ""
+
+#: admin/settings.menu-item.php:444
+msgid "General"
+msgstr ""
+
+#: admin/settings.menu-item.php:446
+msgid "Settings for the item link"
+msgstr ""
+
+#: admin/settings.menu-item.php:453 pro/admin/settings.menu-item.pro.php:69
+#: pro/admin/settings.menu-item.pro.php:84
+msgid "Layout"
+msgstr ""
+
+#: admin/settings.menu-item.php:455
+msgid "Control the layout of this item"
+msgstr ""
+
+#: admin/settings.menu-item.php:460
+msgid "Column Layout"
+msgstr ""
+
+#: admin/settings.menu-item.php:462
+msgid "Control the layout of this Column Item"
+msgstr ""
+
+#: admin/settings.menu-item.php:467 includes/customizer/customizer.php:69
+msgid "Submenu"
+msgstr ""
+
+#: admin/settings.menu-item.php:469
+msgid "These settings control how the submenu of this item is displayed."
+msgstr ""
+
+#: admin/settings.menu-item.php:474
+msgid "Deprecated"
+msgstr ""
+
+#: admin/settings.menu-item.php:476
+msgid ""
+"These settings are deprecated and only included for backwards "
+"compatibility.  It is not recommended to use them as they may be removed in "
+"a future version."
+msgstr ""
+
+#: admin/settings.menu-item.php:483
+msgid "There are no custom settings for the Divider."
+msgstr ""
+
+#: admin/settings.menu-item.php:508 admin/settings.menu-item.php:715
+#: admin/settings.menu-item.php:903
+msgid "Submenu Column Default"
+msgstr ""
+
+#: admin/settings.menu-item.php:511 admin/settings.menu-item.php:906
+msgid ""
+"The number of columns per row that the submenu should be broken into by "
+"default.  Can be overridden on individual items"
+msgstr ""
+
+#: admin/settings.menu-item.php:517
+msgid "Auto Clear"
+msgstr ""
+
+#: admin/settings.menu-item.php:520
+msgid ""
+"Automatically start a new row of items every X items.  For example, if you "
+"choose a Submenu column default of 1/4, the 5th item will start a new "
+"column automatically.  Disable if you are adjusting item columns manually."
+msgstr ""
+
+#: admin/settings.menu-item.php:525
+msgid "Row Padding"
+msgstr ""
+
+#: admin/settings.menu-item.php:528
+msgid "Padding on this specific row"
+msgstr ""
+
+#: admin/settings.menu-item.php:534
+msgid "Grid Row"
+msgstr ""
+
+#: admin/settings.menu-item.php:537
+msgid "Space this row as a grid with equal padding. Useful for image grids."
+msgstr ""
+
+#: admin/settings.menu-item.php:546
+msgid "Item Display"
+msgstr ""
+
+#: admin/settings.menu-item.php:550
+msgid "Submenu Items"
+msgstr ""
+
+#: admin/settings.menu-item.php:552
+msgid "No effect on Top Level Items."
+msgstr ""
+
+#: admin/settings.menu-item.php:557 admin/settings.menu-item.php:754
+#: admin/settings.menu-item.php:948 pro/admin/settings.menu-item.pro.php:530
+#: pro/admin/settings.menu-item.pro.php:580
+#: pro/admin/settings.menu-item.pro.php:631
+#: pro/admin/settings.menu-item.pro.php:1104
+#: pro/admin/settings.menu-item.pro.php:1174
+msgid "Automatic"
+msgstr ""
+
+#: admin/settings.menu-item.php:558
+msgid "Automatically determine the appropriate display type"
+msgstr ""
+
+#: admin/settings.menu-item.php:561
+msgid "Header"
+msgstr ""
+
+#: admin/settings.menu-item.php:562
+msgid "Display as a submenu column header"
+msgstr ""
+
+#: admin/settings.menu-item.php:565 pro/fonts.php:137
+msgid "Normal"
+msgstr ""
+
+#: admin/settings.menu-item.php:566
+msgid "Display as a normal submenu item"
+msgstr ""
+
+#: admin/settings.menu-item.php:575
+msgid "Disable Link"
+msgstr ""
+
+#: admin/settings.menu-item.php:578
+msgid ""
+"Check this box to remove the link from this item; clicking a disabled link "
+"will not result in any URL being followed."
+msgstr ""
+
+#: admin/settings.menu-item.php:583
+msgid "Disable Text"
+msgstr ""
+
+#: admin/settings.menu-item.php:584
+msgid "Do not display the text for this item"
+msgstr ""
+
+#: admin/settings.menu-item.php:592
+msgid "Highlight Link"
+msgstr ""
+
+#: admin/settings.menu-item.php:595
+msgid "Highlight this menu item"
+msgstr ""
+
+#: admin/settings.menu-item.php:630 pro/admin/settings.menu-item.pro.php:550
+#: pro/admin/settings.menu-item.pro.php:1160
+msgid "Columns Width"
+msgstr ""
+
+#: admin/settings.menu-item.php:633
+msgid "This is the fraction of the submenu width that the item/column will occupy."
+msgstr ""
+
+#: admin/settings.menu-item.php:634 admin/settings.menu-item.php:699
+msgid ""
+"Remember that if you set the columns to a fraction, the wrapper for this "
+"item must be either full width or have an explicit width set.  For submenu "
+"items, that means setting an explicit or full width submenu.  For top level "
+"items, that means setting an explicit width or full width menu bar."
+msgstr ""
+
+#: admin/settings.menu-item.php:640
+msgid "Item Layout"
+msgstr ""
+
+#: admin/settings.menu-item.php:650
+msgid "Item Content Alignment"
+msgstr ""
+
+#: admin/settings.menu-item.php:654
+msgid ""
+"Setting this to \"Center\" will allow you to have a centered image stacked "
+"above the title when used in conjunction with the \"Image Above\" layout"
+msgstr ""
+
+#: admin/settings.menu-item.php:658 admin/settings.menu-item.php:1377
+#: includes/customizer/customizer.php:416
+#: includes/customizer/customizer.php:492 pro/fonts.php:127
+msgid "Default"
+msgstr ""
+
+#: admin/settings.menu-item.php:661 pro/admin/settings.menu-item.pro.php:581
+#: pro/admin/settings.menu-item.pro.php:989
+#: pro/admin/settings.menu-item.pro.php:1175 pro/admin/settings.pro.php:236
+#: pro/admin/settings.pro.php:293
+msgid "Left"
+msgstr ""
+
+#: admin/settings.menu-item.php:664 admin/settings.menu-item.php:802
+#: pro/admin/settings.pro.php:294
+msgid "Center"
+msgstr ""
+
+#: admin/settings.menu-item.php:667 pro/admin/settings.menu-item.pro.php:582
+#: pro/admin/settings.menu-item.pro.php:994
+#: pro/admin/settings.menu-item.pro.php:1176 pro/admin/settings.pro.php:237
+#: pro/admin/settings.pro.php:295
+msgid "Right"
+msgstr ""
+
+#: admin/settings.menu-item.php:676 admin/settings.menu-item.php:705
+msgid "New Row"
+msgstr ""
+
+#: admin/settings.menu-item.php:677 admin/settings.menu-item.php:706
+msgid "Clear the previous row and start a new one with this item."
+msgstr ""
+
+#: admin/settings.menu-item.php:680 admin/settings.menu-item.php:709
+msgid "Submenu Columns"
+msgstr ""
+
+#: admin/settings.menu-item.php:695
+msgid "Column Width"
+msgstr ""
+
+#: admin/settings.menu-item.php:698
+msgid "This is the fraction of the submenu width that the column will occupy."
+msgstr ""
+
+#: admin/settings.menu-item.php:718
+msgid ""
+"The number of columns per row that the items within this column should be "
+"broken into by default.  Can be overridden on individual items"
+msgstr ""
+
+#: admin/settings.menu-item.php:724 admin/settings.menu-item.php:913
+msgid "Auto Row"
+msgstr ""
+
+#: admin/settings.menu-item.php:727 admin/settings.menu-item.php:916
+msgid ""
+"Automatically start a new row every X items.  For example, if you choose a "
+"Submenu column default of 1/4, the 5th item will start a new column "
+"automatically.  Disable if you are adjusting item columns manually."
+msgstr ""
+
+#: admin/settings.menu-item.php:728 admin/settings.menu-item.php:917
+#: admin/settings.menu-item.php:926 pro/admin/settings.menu-item.pro.php:868
+#: pro/admin/settings.menu-item.pro.php:896
+#: pro/admin/settings.menu-item.pro.php:953
+#: pro/admin/settings.menu-item.pro.php:962
+msgid "Mega Submenus"
+msgstr ""
+
+#: admin/settings.menu-item.php:755
+msgid ""
+"UberMenu will attempt to automatically determine the best type of submenu "
+"for this item."
+msgstr ""
+
+#: admin/settings.menu-item.php:759
+msgid "Mega Submenu"
+msgstr ""
+
+#: admin/settings.menu-item.php:760
+msgid "A mega submenu"
+msgstr ""
+
+#: admin/settings.menu-item.php:764
+msgid "Flyout Submenu"
+msgstr ""
+
+#: admin/settings.menu-item.php:765
+msgid "A standard Flyout submenu.  Not intended for use inside Mega submenus."
+msgstr ""
+
+#: admin/settings.menu-item.php:769
+msgid "Stack"
+msgstr ""
+
+#: admin/settings.menu-item.php:770
+msgid "A stacked vertical submenu that is always visible"
+msgstr ""
+
+#: admin/settings.menu-item.php:789
+msgid "Mega Submenu Position"
+msgstr ""
+
+#: admin/settings.menu-item.php:793
+msgid "Select how the submenu should be positioned relative to this item."
+msgstr ""
+
+#: admin/settings.menu-item.php:797
+msgid "Full Width"
+msgstr ""
+
+#: admin/settings.menu-item.php:798
+msgid ""
+"The submenu will be the full width of the menu bar (or wider, if not bound "
+"by the menu bar).  <br/>Knowledgebase: <strong><a target=\"_blank\" "
+"href=\"http://goo.gl/vyRaC3\" title=\"Submenu Bounds (Maximum Submenu "
+"Width)\">Submenu Bounds</a></strong>"
+msgstr ""
+
+#: admin/settings.menu-item.php:803
+msgid "Align mega submenu centered below the parent menu item."
+msgstr ""
+
+#: admin/settings.menu-item.php:807
+msgid "Left Edge of Menu Bar"
+msgstr ""
+
+#: admin/settings.menu-item.php:808
+msgid ""
+"Align submenu to the left edge of the menu bar (or to the next relative "
+"wrapper if the submenus are not bound by the menu bar)"
+msgstr ""
+
+#: admin/settings.menu-item.php:813
+msgid "Right Edge of Menu Bar"
+msgstr ""
+
+#: admin/settings.menu-item.php:814
+msgid ""
+"Align submenu to the right edge of the menu bar (or to the next relative "
+"wrapper if the submenus are not bound by the menu bar)"
+msgstr ""
+
+#: admin/settings.menu-item.php:819
+msgid "Left Edge of Parent Item"
+msgstr ""
+
+#: admin/settings.menu-item.php:820
+msgid "Align submenu to the left edge of the parent menu item."
+msgstr ""
+
+#: admin/settings.menu-item.php:824
+msgid "Right Edge of Parent Item"
+msgstr ""
+
+#: admin/settings.menu-item.php:825
+msgid ""
+"Align submenu to the right edge of the parent menu item.  Forces "
+"direction:rtl."
+msgstr ""
+
+#: admin/settings.menu-item.php:829 admin/settings.menu-item.php:865
+msgid "Vertical - Full Height"
+msgstr ""
+
+#: admin/settings.menu-item.php:830 admin/settings.menu-item.php:866
+msgid ""
+"The submenu will be the full height of the menu bar (at minimum), aligned "
+"to the top. [Vertically oriented menus only]"
+msgstr ""
+
+#: admin/settings.menu-item.php:834 admin/settings.menu-item.php:870
+msgid "Vertical - Aligned to parent"
+msgstr ""
+
+#: admin/settings.menu-item.php:835 admin/settings.menu-item.php:871
+msgid ""
+"The submenu will be a natural height and aligned to its parent item. "
+"[Vertically oriented menus only]"
+msgstr ""
+
+#: admin/settings.menu-item.php:841
+msgid "Mega Submenus Only"
+msgstr ""
+
+#: admin/settings.menu-item.php:847
+msgid "Flyout Submenu Position"
+msgstr ""
+
+#: admin/settings.menu-item.php:851
+msgid "Select how the Flyout submenu should be positioned relative to this item."
+msgstr ""
+
+#: admin/settings.menu-item.php:855
+msgid "Fly Right"
+msgstr ""
+
+#: admin/settings.menu-item.php:856
+msgid ""
+"For the first submenu, align to the left edge of the parent menu item. For "
+"deeper submenus, fly to the right of the previous level."
+msgstr ""
+
+#: admin/settings.menu-item.php:860
+msgid "Fly Left"
+msgstr ""
+
+#: admin/settings.menu-item.php:861
+msgid ""
+"For the first submenu, align to the right edge of the parent menu item. For "
+"deeper submenus, fly to the left of the previous level.  Forces "
+"direction:rtl."
+msgstr ""
+
+#: admin/settings.menu-item.php:877
+msgid "Flyout Submenus Only"
+msgstr ""
+
+#: admin/settings.menu-item.php:885
+msgid ""
+"Leave blank to size to contents.  If you are not using the Full Width "
+"submenu layout, some layouts will require an explicit width.  Include the "
+"units (px/em/%)."
+msgstr ""
+
+#: admin/settings.menu-item.php:886
+msgid ""
+"If you are using a mega submenu that is not full-width, and you want to "
+"structure your submenu with the Columns settings, you should set an "
+"explicit width here."
+msgstr ""
+
+#: admin/settings.menu-item.php:895
+msgid ""
+"By default, every mega submenu will be at least 50% width of the menu bar.  "
+"If you need to adjust this you can override it here.  Include the units "
+"(px/em/%)."
+msgstr ""
+
+#: admin/settings.menu-item.php:922
+msgid "Pad Submenu"
+msgstr ""
+
+#: admin/settings.menu-item.php:925
+msgid ""
+"Add padding to submenus (doubles the edge gutters).  Useful if you need to "
+"make the spacing at the edges of a row equal to that between the columns."
+msgstr ""
+
+#: admin/settings.menu-item.php:931
+msgid "Indent Submenu"
+msgstr ""
+
+#: admin/settings.menu-item.php:934
+msgid ""
+"Indents submenu.  Useful for vertically stacked content to create a visual "
+"hierarchy."
+msgstr ""
+
+#: admin/settings.menu-item.php:935
+msgid "Stack Submenus"
+msgstr ""
+
+#: admin/settings.menu-item.php:940
+msgid "Advanced Submenus"
+msgstr ""
+
+#: admin/settings.menu-item.php:944
+msgid ""
+"Advanced submenus are useful for layouts such as full-screen-width submenus "
+"with centered submenu contents.  You can leave this on Automatic; setting "
+"Enabled or Disabled just increases efficiency slightly."
+msgstr ""
+
+#: admin/settings.menu-item.php:949
+msgid ""
+"UberMenu will attempt to automatically determine whether the item should "
+"have an advanced submenu."
+msgstr ""
+
+#: admin/settings.menu-item.php:952 pro/admin/settings.menu-item.pro.php:296
+#: pro/admin/settings.menu-item.pro.php:470
+#: pro/admin/settings.menu-item.pro.php:725
+msgid "Disabled"
+msgstr ""
+
+#: admin/settings.menu-item.php:953
+msgid ""
+"Disable the advanced submenu functionality.  The submenu cannot contain "
+"Rows."
+msgstr ""
+
+#: admin/settings.menu-item.php:956
+msgid "Enabled"
+msgstr ""
+
+#: admin/settings.menu-item.php:957
+msgid ""
+"Enable the advanced submenu functionality.  This allows you to add Row menu "
+"items to the submenu.  Note that all submenu items must be wrapped in Row "
+"Items (only Rows can be direct children of this item).  Or just use the "
+"Automatic setting."
+msgstr ""
+
+#: admin/settings.menu-item.php:969
+msgid "Start New Column"
+msgstr ""
+
+#: admin/settings.menu-item.php:972
+msgid ""
+"Start a new column under the same header.  This setting is now deprecated.  "
+"Instead, either (1) use the \"Column\" menu item, or set the Header Layout "
+"to twice the normal width and set the Submenu Column Default to 1/2 (or "
+"1/desired number of columns) ."
+msgstr ""
+
+#: admin/settings.menu-item.php:1378
+msgid "Layout will be automatically determined"
+msgstr ""
+
+#: admin/settings.menu-item.php:1381
+msgid "Text Only"
+msgstr ""
+
+#: admin/settings.menu-item.php:1382
+msgid "No image or icon, just the text"
+msgstr ""
+
+#: admin/settings.menu-item.php:1387
+msgid "Icon Layouts"
+msgstr ""
+
+#: admin/settings.menu-item.php:1390
+msgid "Icon Left"
+msgstr ""
+
+#: admin/settings.menu-item.php:1539 pro/admin/settings.menu-item.pro.php:764
+msgid "Inherit"
+msgstr ""
+
+#: admin/settings.menu-item.php:1540 pro/admin/settings.menu-item.pro.php:765
+msgid "Inherit settings from the menu instance settings"
+msgstr ""
+
+#: admin/settings.menu-item.php:1543
+msgid "Full"
+msgstr ""
+
+#: admin/settings.menu-item.php:1544 pro/admin/settings.menu-item.pro.php:769
+msgid "Display image at natural dimensions"
+msgstr ""
+
+#: admin/settings.menu-item.php:1555
+msgid "Registered image size "
+msgstr ""
+
+#: admin/settings.widget-manager.php:40
+msgid "<strong>No Custom Widget Areas found</strong>"
+msgstr ""
+
+#: includes/customizer/customizer.php:39 includes/customizer/customizer.php:121
+#: pro/toolbar.php:23
+msgid "UberMenu"
+msgstr ""
+
+#: includes/customizer/customizer.php:48
+msgid "General / Miscellaneous"
+msgstr ""
+
+#: includes/customizer/customizer.php:55 pro/admin/settings.pro.php:224
+#: pro/admin/settings.pro.php:366
+msgid "Menu Bar"
+msgstr ""
+
+#: includes/customizer/customizer.php:62
+msgid "Top Level Items"
+msgstr ""
+
+#: includes/customizer/customizer.php:76
+msgid "Submenu Headers"
+msgstr ""
+
+#: includes/customizer/customizer.php:83
+msgid "Normal Items"
+msgstr ""
+
+#: includes/customizer/customizer.php:97
+msgid "Arrows"
+msgstr ""
+
+#: includes/customizer/customizer.php:111
+msgid "Search Bar"
+msgstr ""
+
+#: includes/customizer/customizer.php:545
+#: includes/customizer/customizer.php:546
+msgid "Hex Value"
+msgstr ""
+
+#: includes/functions.php:257
+msgid ""
+"Theme Location Instance should be an integer or leave blank.  Defaulting to "
+"0."
+msgstr ""
+
+#: includes/functions.php:281
+msgid ""
+"is not a valid Instance ID.  Please pass a valid instance ID to the "
+"ubermenu() function."
+msgstr ""
+
+#: includes/functions.php:492
+msgid "No menu to display."
+msgstr ""
+
+#: includes/functions.php:576
+msgid "UberMenu [Direct Injection]"
+msgstr ""
+
+#: includes/item-limit-detection.php:46
+msgid ""
+"Your server is running Suhosin, and your current maxvars settings may limit "
+"the number of menu items you can save."
+msgstr ""
+
+#: includes/item-limit-detection.php:64
+msgid "Menu Item Limit Warning"
+msgstr ""
+
+#: includes/item-limit-detection.php:95
+msgid "Last saved Item Variable Count"
+msgstr ""
+
+#: includes/item-limit-detection.php:106
+msgid "Percent of Item Limit"
+msgstr ""
+
+#: includes/item-limit-detection.php:109
+msgid "Estimated remaining menu items"
+msgstr ""
+
+#: includes/menuitems/UberMenuItem.class.php:454
+#: includes/menuitems/UberMenuItem.class.php:486
+msgid "Close"
+msgstr ""
+
+#: includes/menuitems/UberMenuItem.class.php:908
+#: pro/menuitems/UberMenuItemDynamicPosts.class.php:523
+#: pro/menuitems/UberMenuItemDynamicTerms.class.php:428
+msgid "Unknown layout order:"
+msgstr ""
+
+#: includes/menuitems/UberMenuItem.class.php:1200
+msgid "The widget area is empty."
+msgstr ""
+
+#: includes/menuitems/UberMenuItem.class.php:1201
+#: includes/menuitems/UberMenuItem.class.php:1262
+msgid "Assign a widget"
+msgstr ""
+
+#: includes/menuitems/UberMenuItem.class.php:1216
+msgid ""
+"You have assigned a widget area to a top level menu item.  If you want the "
+"widget to appear in a submenu, please attach it to a child menu item.  If "
+"you want the widget to appear in the menu bar (always visible), please "
+"enable the setting in the UberMenu Control Panel > General Settings > "
+"Widgets > Allow Top Level Widgets"
+msgstr ""
+
+#: includes/menuitems/UberMenuItem.class.php:1261
+msgid "The widget area is empty.  "
+msgstr ""
+
+#: includes/menuitems/UberMenuItem.class.php:1274
+msgid ""
+"Please enter a name for your Custom Widget Area, or assign a Reusable "
+"Widget Area to this menu item."
+msgstr ""
+
+#: pro/admin/custom.menu-item-types.pro.php:7
+#: pro/admin/settings.menu-item.pro.php:64
+#: pro/admin/settings.menu-item.pro.php:1140
+msgid "Custom Content"
+msgstr ""
+
+#: pro/admin/custom.menu-item-types.pro.php:8
+#: pro/admin/settings.menu-item.pro.php:772
+#: pro/admin/settings.menu-item.pro.php:1307
+msgid "Custom"
+msgstr ""
+
+#: pro/admin/custom.menu-item-types.pro.php:9
+msgid "A block of custom content, which can include HTML and shortcodes"
+msgstr ""
+
+#: pro/admin/custom.menu-item-types.pro.php:14
+msgid "Tabs Block"
+msgstr ""
+
+#: pro/admin/custom.menu-item-types.pro.php:15
+#: pro/admin/settings.menu-item.pro.php:29
+msgid "Tabs"
+msgstr ""
+
+#: pro/admin/custom.menu-item-types.pro.php:17
+msgid "A group of tabs"
+msgstr ""
+
+#: pro/admin/custom.menu-item-types.pro.php:22
+#: pro/admin/custom.menu-item-types.pro.php:23
+#: pro/admin/settings.menu-item.pro.php:20
+msgid "Dynamic Posts"
+msgstr ""
+
+#: pro/admin/custom.menu-item-types.pro.php:24
+msgid "Dynamically generated post content."
+msgstr ""
+
+#: pro/admin/custom.menu-item-types.pro.php:30
+#: pro/admin/custom.menu-item-types.pro.php:31
+#: pro/admin/settings.menu-item.pro.php:13
+msgid "Dynamic Terms"
+msgstr ""
+
+#: pro/admin/custom.menu-item-types.pro.php:32
+msgid "Dynamically generated taxonomy/category content."
+msgstr ""
+
+#: pro/admin/custom.menu-item-types.pro.php:37
+#: pro/admin/custom.menu-item-types.pro.php:38
+#: pro/admin/settings.menu-item.pro.php:36
+msgid "Menu Segment"
+msgstr ""
+
+#: pro/admin/custom.menu-item-types.pro.php:39
+msgid "Insert a separate menu into the menu tree."
+msgstr ""
+
+#: pro/admin/custom.menu-item-types.pro.php:45
+#: pro/admin/custom.menu-item-types.pro.php:46
+msgid "Widget Area"
+msgstr ""
+
+#: pro/admin/custom.menu-item-types.pro.php:47
+msgid "Insert a Widget Area into the menu"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:15
+msgid ""
+"Filter settings for the terms to be displayed.  Dynamic items can only be "
+"placed in a submenu."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:22
+msgid ""
+"Filter settings for the posts to be displayed.  Dynamic items can only be "
+"placed in a submenu."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:31
+msgid ""
+"This is a wrapper item, which does not produce any content on its own.  Add "
+"child items to this Tabs item to create the Tab Toggles.  Add child items "
+"to those Toggles to create the Content Panels that are revealed when those "
+"toggles are activated."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:39
+msgid ""
+"Make sure not to nest a menu segment within the same menu, or you'll create "
+"an infinite recursion"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:45
+msgid "Icon"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:51
+#: pro/admin/settings.menu-item.pro.php:709
+msgid "Image"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:53
+msgid "Set an image for this menu item and control its size"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:75 pro/admin/settings.pro.php:1592
+#: pro/admin/settings.pro.php:1815
+msgid "Widgets"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:77
+msgid ""
+"Insert a widget area into your menu item.  The content of the Widget Area "
+"(widgets) are added via the standard WordPress Widgets Panel"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:78
+msgid ""
+"Choose either the Custom Widget Area or Reusable Widget Area setting, but "
+"not both"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:79
+msgid ""
+"Remember, if you want a widget to appear in a submenu, it should be "
+"attached to a submenu item, not a top level item."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:90
+msgid "Customize Style"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:92
+msgid "Set the styles for this specific menu item."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:93
+msgid "To style the menu more generally, visit the "
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:98
+msgid "Responsive"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:100
+msgid "Control the display of this item (and its children) on mobile vs. desktop."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:133
+msgid "Limit"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:134
+msgid "Maximum number of posts to return.  Set to -1 for unlimited."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:142
+msgid "Post Type"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:143
+msgid "Type of posts to return."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:151
+msgid "Category"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:152
+msgid ""
+"The category to return posts from.  To inherit from a parent, it must be a "
+"Category taxonomy menu item, or a Dynamic Term Item that has returned a "
+"Category."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:156
+#: pro/admin/settings.menu-item.pro.php:166
+#: pro/admin/settings.menu-item.pro.php:199
+#: pro/admin/settings.menu-item.pro.php:359
+#: pro/admin/settings.menu-item.pro.php:370
+msgid ""
+"For performance purposes, the number of autocomplete results is limited to "
+"100 by default.  You can adjust this in the UberMenu Control Panel > "
+"General Settings > Advanced Menu Items, or just enter the ID in the ID "
+"field."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:161
+msgid "Tag"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:162
+msgid ""
+"The tag to return posts from.  To inherit from a parent, it must be a Tag "
+"taxonomy menu item, or a Dynamic Term Item that has returned a Tag."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:180
+msgid "Custom taxonomy slug"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:194
+msgid "Parent Post"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:195
+msgid "Display children of this post from the post hierarchy."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:205
+msgid "Post Author"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:206
+msgid "Display posts by a specific author.  Check none to query all authors."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:216
+#: pro/admin/settings.menu-item.pro.php:376
+msgid "Exclude"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:217
+msgid ""
+"Comma separated list of post IDs to exclude.  For example, "
+"<em>25,67,152</em>"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:226
+#: pro/admin/settings.menu-item.pro.php:395
+msgid "Sort by"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:227
+msgid "Choose how to sort your post results"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:233
+msgid "Post ID"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:236
+#: pro/admin/settings.menu-item.pro.php:1299
+msgid "Author"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:239
+msgid "Post Title"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:242
+msgid "Post Slug"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:245
+msgid "Publish Date"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:248
+msgid "Last Modified Date"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:251
+msgid "Parent"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:254
+msgid "Comment Count"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:257
+msgid "Page Order"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:270
+#: pro/admin/settings.menu-item.pro.php:424
+msgid "Sort"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:271
+#: pro/admin/settings.menu-item.pro.php:425
+msgid ""
+"Sort your items in normal order (ascending 1-10, A-Z) or reverse order "
+"(descending 10-1, Z-A)"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:277
+#: pro/admin/settings.menu-item.pro.php:431
+msgid "Ascending"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:280
+#: pro/admin/settings.menu-item.pro.php:434
+msgid "Descending"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:291
+#: pro/admin/settings.menu-item.pro.php:465
+msgid "Automatic Columns"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:292
+msgid "Automatically divide posts evenly across columns."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:315
+msgid "Dynamic Subcontent"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:316
+msgid "Subcontent will appear below the Dynamic Post title"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:332
+msgid "Taxonomy"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:333
+msgid ""
+"Check the taxonomies to pull terms from.  If you do not check any "
+"taxonomies, no terms will be displayed.  Hover over the taxonomy label to "
+"see the slug."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:344
+msgid "Number"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:345
+msgid "The maximum number of terms to display.  Blank for unlimited."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:354
+msgid "Parent Term"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:355
+msgid ""
+"Select a term from the dropdown to use as a parent term.  Display direct "
+"children of this term only."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:365
+msgid "Ancestor Term"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:366
+msgid ""
+"Select a term from the dropdown to use as an ancestor term.  All "
+"descendants of this term well be displayed (child_of).  Overridden if "
+"Parent is set."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:377
+msgid ""
+"Comma separated list of term IDs to exclude.  For example, "
+"<em>25,67,152</em>"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:396
+msgid "Choose how to sort your terms results"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:402
+msgid "Term ID"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:405
+msgid "Count"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:408
+msgid "Term Name"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:411
+msgid "Term Slug"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:444
+msgid "Hide Empty"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:445
+msgid "Do not display terms that don't have any associated posts"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:455
+msgid "Hierarchical"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:456
+msgid ""
+"Display terms that have non-empty descendants (even if Hide Empty is "
+"enabled)."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:466
+msgid "Automatically divide terms evenly across columns."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:489
+msgid "Display Term Counts"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:490
+msgid "Display the number of posts with this term after the term name."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:501
+msgid "Custom Widget Area"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:504
+msgid ""
+"Enter a name for your Widget Area, and a widget area specifically for this "
+"menu item will be automatically be created in the "
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:504
+#: pro/admin/settings.menu-item.pro.php:517
+msgid "Widgets Screen"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:505
+msgid ""
+"This is generally the simplest way to add widgets, assuming you don't "
+"intend to reuse this widget area"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:511
+msgid "Reusable Widget Area"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:515
+msgid ""
+"Select a reusable widget area to display in this menu item.  This will be "
+"overridden if you use the \"Custom Widget Area\" setting and assign a "
+"widget to it."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:516
+msgid "Create reusable widget areas via the "
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:517
+msgid "Assign widgets via the "
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:523
+msgid "Widget Area Columns"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:526
+msgid ""
+"Automatic will divide the widgets into even columns.  So 5 widgets will "
+"produce 5 columns."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:553
+msgid ""
+"This is the fraction of the submenu width that the widget area will occupy. "
+" Auto will be full width by default."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:575
+#: pro/admin/settings.menu-item.pro.php:1169
+msgid "Alignment"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:578
+#: pro/admin/settings.menu-item.pro.php:1172
+msgid "Alignment of this menu item within the menu bar"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:584
+#: pro/admin/settings.menu-item.pro.php:594
+#: pro/admin/settings.menu-item.pro.php:1178
+msgid "Top Level Menu Items"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:590
+msgid "Mini Item"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:593
+msgid ""
+"Makes the item narrower padding-wise than other items.  Useful for grouping "
+"icons."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:613
+msgid ""
+"The selector for an item to scroll to when clicked, if present.  Example: "
+"<code>#section-1</code>"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:621
+msgid "Prevent the text from wrapping to a new line."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:626
+msgid "Trigger Override"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:629
+msgid ""
+"Switch to something other than \"Automatic\" to trigger this item's submenu "
+"differently from other items.  The default Trigger for the menu can be "
+"configured in the Menu Settings."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:641
+msgid "Disable Submenu Indicator (Arrow)"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:644
+msgid "Useful for items like a search dropdown."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:652
+msgid "A class to be applied to the target/anchor/span element."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:661
+msgid "An ID to be applied to the target/anchor/span element."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:667
+msgid "ShiftNav Toggle"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:671
+msgid ""
+"Toggle a ShiftNav instance when clicking this item.  Note this will disable "
+"any other click functionality, including following this link.  Requires the "
+"ShiftNav plugin.  Learn more about "
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:710
+msgid ""
+"Click \"Select\" to upload or choose a new image.  Click \"Remove\" to "
+"remove the image.  Click \"Edit\" to edit the currently selected image. For "
+"Dynamic Posts, this image is the optional fallback for when a Post does not "
+"have a featured image."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:718
+msgid "Inherit Featured Image"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:719
+msgid ""
+"For Post Menu Items, automatically inherit the Post's featured image for "
+"this item."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:726
+msgid "Do not inherit the image"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:729
+msgid "Assign Image on Save"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:730
+msgid ""
+"[More efficient] When this item is saved, the current featured image from "
+"the post will be assigned.  It will not be updated until you save this item "
+"again."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:733
+msgid "Dynamically Inherit"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:734
+msgid ""
+"[Less efficient] Each time the menu item is displayed, dynamically find the "
+"item's featured image."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:739
+msgid "Page/Post Menu Items"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:746 pro/admin/settings.pro.php:427
+msgid "Image Size"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:751
+msgid ""
+"This is the size of the actual file that will be served.  You can choose "
+"from any registered image size in your setup.  You can set a default to be "
+"inherited globally in the Control Panel."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:757
+msgid "Image Dimensions"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:768
+msgid "Natural"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:773
+msgid "Use a custom size, defined below"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:782
+msgid "Custom Image Width"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:783
+msgid ""
+"Image width attribute (px).  Do not include units.  Only valid if \"Image "
+"Size\" is set to \"Custom\" above."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:791
+msgid "Custom Image Height"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:792
+msgid ""
+"Image height attribute (px).  Do not include units.  Only valid if \"Image "
+"Size\" is set to \"Custom\" above.  Leave blank to maintain aspect ratio."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:799
+msgid "Disable Item Padding"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:800
+msgid ""
+"Disable the padding on this item.  Useful for image-only menu items where "
+"the image should extend to the extents of the item."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:815
+msgid "Hide below breakpoint"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:816
+msgid "Hides this item below the responsive breakpoint via CSS."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:823
+msgid "Hide above breakpoint"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:824
+msgid "Hides this item above the responsive breakpoint via CSS."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:831
+msgid "Disable on mobile"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:832
+msgid "Removes this item when mobile device is detected via wp_is_mobile()."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:835
+#: pro/admin/settings.menu-item.pro.php:844
+#: pro/admin/settings.menu-item.pro.php:853
+msgid ""
+"Please note that if you are using server-side caching, you will need to "
+"configure it properly to support a separate mobile cache for this setting "
+"to work"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:840
+msgid "Disable on desktop"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:841
+msgid "Removes this item when mobile device is NOT detected via wp_is_mobile()."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:849
+msgid "Disable submenu on mobile"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:850
+msgid ""
+"Removes this item's submenu when mobile device is detected via "
+"wp_is_mobile()."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:865
+msgid "Grid Submenu"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:869
+msgid ""
+"Useful for image grids.  Makes the space between the targets equal to the "
+"space on the submenu edges."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:874
+msgid "Show submenu when current"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:877
+msgid ""
+"Show this submenu on page load by default when its parent is current.  Only "
+"relevant for submenu types that are hidden by default."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:882
+msgid "Show submenu by default"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:885
+msgid ""
+"Show this submenu on page load by default on every page.  Only relevant for "
+"submenu types that are hidden by default."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:891
+msgid "Submenu Background Image"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:901
+msgid "Repeat Background Image"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:907
+msgid "No Repeat"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:910
+msgid "Repeat"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:913
+msgid "Repeat X (Horizontal)"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:916
+msgid "Repeat Y (Vertical)"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:919
+msgid "Space"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:922
+msgid "Round"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:932
+msgid "Background Position"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:940
+msgid "Background Size"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:943
+msgid "Try \"cover\" to cover the entire submenu."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:948
+msgid "Submenu Padding"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:951
+msgid "would add 50px of padding to the bottom of the submenu."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:958
+msgid "Submenu Footer Content"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:961
+msgid "Add HTML to the footer of the menu."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:982
+msgid "Tab Layout"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:991
+msgid "Tabs on the left, content panels on the right"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:996
+msgid "Tabs on the right, content panels on the left"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:999
+msgid "Top"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1001
+msgid "Tabs on the top, content panels on the bottom"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1004
+msgid "Bottom"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1006
+msgid "Tabs on the bottom, content panels on the top"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1016
+msgid "Tab Block Width"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1019
+msgid ""
+"This is the width of the whole tab block.  In the majority of cases, you "
+"will leave this set to \"Full Width\""
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1026
+msgid "Tabs Toggles Layout Width"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1029
+msgid ""
+"The width of the tab toggles within the tab block.  If using Tab Layouts "
+"\"Top\" or \"Bottom\", set this to Full."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1031
+msgid ""
+"If your Tab Layout is Left or Right, you'll want this to complement your "
+"Panels Layout Width.  If your Tab Layout is Top or Bottom, you'll want this "
+"to be set to Full"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1038
+msgid "Panels Layout Width"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1041
+msgid ""
+"The width of the content panels within the tab block.   If using Tab "
+"Layouts \"Top\" or \"Bottom\", set this to Full."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1043
+msgid ""
+"If your Tab Layout is Left or Right, you'll want this to complement your "
+"Tabs Toggles Layout Width.  If your Tab Layout is Top or Bottom, you'll "
+"want this to be set to Full"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1050
+msgid "Panels Columns Default"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1053
+msgid ""
+"The number of columns per row that the content panel should be broken into "
+"by default.  Can be overridden on individual items"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1061
+msgid "Grid Panels"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1064
+msgid ""
+"Useful for image grids in the Tab Content Panel.  Makes the space between "
+"the targets equal to the space on the content panel edges."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1069
+msgid "Panel Padding"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1072
+msgid ""
+"Add padding to panels.  Useful if you need to make the spacing at the edges "
+"of a row equal to that between the columns (by doubling it)."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1089
+msgid "Show Default Panel"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1092
+msgid "Show the first tab's panel by default.  Otherwise a blank area will display."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1100
+msgid ""
+"You can override the standard trigger which is set in the Control Panel for "
+"this set of tabs."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1124
+msgid "Menu"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1128
+msgid "Select a menu to insert its items into the menu tree."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1143
+msgid "Can contain HTML and shortcodes"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1149
+msgid "Pad Custom Content"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1152
+msgid "Pad the content area so that it aligns similarly to other menu items"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1163
+msgid ""
+"This is the fraction of the submenu width that the custom content area will "
+"occupy."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1192
+msgid "Background Color"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1202
+msgid "Font Color"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1212
+msgid "Background Color [Active]"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1222
+msgid "Font Color [Active]"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1232
+msgid "Background Color [Current]"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1242
+msgid "Font Color [Current]"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1252
+msgid "Padding"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1255
+msgid "Set the padding for this specific item"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1262 pro/admin/settings.pro.php:816
+msgid "Submenu Background Color"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1272
+msgid "Submenu Font Color"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1292
+msgid "Dynamic subcontent disabled"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1295
+msgid "Date"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1296
+msgid "Display the post date."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1300
+msgid "Display the post author."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1303
+msgid "Excerpt"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1304
+msgid ""
+"Display the excerpt from the post.  You must manually enter your excerpt on "
+"the Post page, it will not be generated automatically."
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1308
+msgid "Write a custom filter - ubermenu_dp_subcontent"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1324
+msgid "Image Layouts"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1327
+msgid "Image Left"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1331
+msgid "Image Right"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1335
+msgid "Image Above"
+msgstr ""
+
+#: pro/admin/settings.menu-item.pro.php:1339
+msgid "Image Below"
+msgstr ""
+
+#: pro/admin/settings.pro.php:9 pro/admin/settings.pro.php:164
+msgid "Integration"
+msgstr ""
+
+#: pro/admin/settings.pro.php:15
+msgid "Position & Layout"
+msgstr ""
+
+#: pro/admin/settings.pro.php:18 pro/admin/settings.pro.php:353
+msgid "Submenus"
+msgstr ""
+
+#: pro/admin/settings.pro.php:27 pro/admin/settings.pro.php:419
+msgid "Images"
+msgstr ""
+
+#: pro/admin/settings.pro.php:33 pro/admin/settings.pro.php:521
+msgid "Style Customizations"
+msgstr ""
+
+#: pro/admin/settings.pro.php:36 pro/admin/settings.pro.php:1258
+msgid "Icons"
+msgstr ""
+
+#: pro/admin/settings.pro.php:39 pro/admin/settings.pro.php:1455
+msgid "Fonts"
+msgstr ""
+
+#: pro/admin/settings.pro.php:45 pro/admin/settings.pro.php:1398
+#: pro/admin/settings.pro.php:1702 pro/admin/settings.pro.php:1830
+msgid "Advanced"
+msgstr ""
+
+#: pro/admin/settings.pro.php:48 pro/admin/settings.pro.php:1417
+msgid "Import/Export"
+msgstr ""
+
+#: pro/admin/settings.pro.php:165
+msgid ""
+"To integrate this menu, either (1) select the Theme Location(s) to "
+"automatically replace, or (2) use the provided integration code to insert "
+"wherever you like."
+msgstr ""
+
+#: pro/admin/settings.pro.php:172
+msgid "Automatic Integration Theme Location"
+msgstr ""
+
+#: pro/admin/settings.pro.php:174
+msgid ""
+"Select the theme locations to activate automatically.  Works with most "
+"modularly coded themes.  The above theme locations are specific to your "
+"site."
+msgstr ""
+
+#: pro/admin/settings.pro.php:183
+msgid "Direct Injection Testing (Experimental)"
+msgstr ""
+
+#: pro/admin/settings.pro.php:185
+msgid ""
+"This setting is intended for testing - enable and compare this menu to your "
+"main menu.  It will add UberMenu to your site via the wp_footer() hook and "
+"fix it to the top of your site.  This allows you to test the menu without "
+"interference from the theme's menu (in the majority of cases).  It is a "
+"good way to test if you need to use Manual Integration.  You will need to "
+"assign a menu to the UberMenu [Direct Injection] theme location"
+msgstr ""
+
+#: pro/admin/settings.pro.php:194
+msgid "Manual Integration"
+msgstr ""
+
+#: pro/admin/settings.pro.php:201
+msgid "Manual Integration Code"
+msgstr ""
+
+#: pro/admin/settings.pro.php:209
+msgid "Default Manual Integration Menu"
+msgstr ""
+
+#: pro/admin/settings.pro.php:210
+msgid ""
+"This is the default menu that will appear when you use the manual "
+"integration code.  It can be overridden by the <code>menu</code> parameter "
+"within the nav menu args array.  Please note that this setting will "
+"override any theme_location parameter passed to the ubermenu() function."
+msgstr ""
+
+#: pro/admin/settings.pro.php:231
+msgid "Menu Bar Alignment"
+msgstr ""
+
+#: pro/admin/settings.pro.php:232
+msgid ""
+"Alignment relative to the theme container.  If you choose \"Center\", you "
+"must set a Menu Bar Width below."
+msgstr ""
+
+#: pro/admin/settings.pro.php:238
+msgid "Center (requires Menu Bar Width)"
+msgstr ""
+
+#: pro/admin/settings.pro.php:247
+msgid "Menu Bar Width"
+msgstr ""
+
+#: pro/admin/settings.pro.php:248
+msgid ""
+"Set an explicit width for the menu bar.  Required for centering.  Generally "
+"not needed."
+msgstr ""
+
+#: pro/admin/settings.pro.php:257
+msgid "Menu Bar Margin Top"
+msgstr ""
+
+#: pro/admin/settings.pro.php:258
+msgid "Useful for tweaking position"
+msgstr ""
+
+#: pro/admin/settings.pro.php:268
+msgid "Menu Bar Margin Bottom"
+msgstr ""
+
+#: pro/admin/settings.pro.php:269
+msgid "Useful for spacing out elements"
+msgstr ""
+
+#: pro/admin/settings.pro.php:283
+msgid "Menu Items"
+msgstr ""
+
+#: pro/admin/settings.pro.php:290
+msgid "Horizontal Item Alignment"
+msgstr ""
+
+#: pro/admin/settings.pro.php:320
+msgid "Inner Menu Bar"
+msgstr ""
+
+#: pro/admin/settings.pro.php:327
+msgid "Center Inner Menu Bar"
+msgstr ""
+
+#: pro/admin/settings.pro.php:328
+msgid "Requires an Inner Menu Bar Width below."
+msgstr ""
+
+#: pro/admin/settings.pro.php:336
+msgid "Inner Menu Bar Width"
+msgstr ""
+
+#: pro/admin/settings.pro.php:337
+msgid ""
+"Set an explicit width for the inner menu bar.  Generally not needed except "
+"for inner menu bar centering.  You may also wish to set the \"Bound "
+"Submenu\" option to Inner"
+msgstr ""
+
+#: pro/admin/settings.pro.php:361
+msgid "Bound Submenu To"
+msgstr ""
+
+#: pro/admin/settings.pro.php:362
+msgid ""
+"Set to \"Unbounded\" if you want a submenu wider than the menu bar.  The "
+"submenu will be bound by the next relatively positioned ancestor element in "
+"your theme.  Only relevant for horizontally oriented menus."
+msgstr ""
+
+#: pro/admin/settings.pro.php:367
+msgid "Inner menu bar width"
+msgstr ""
+
+#: pro/admin/settings.pro.php:368
+msgid "Unbounded"
+msgstr ""
+
+#: pro/admin/settings.pro.php:376
+msgid "Submenu Row Width"
+msgstr ""
+
+#: pro/admin/settings.pro.php:377
+msgid ""
+"If you are using Rows within your submenu, you can center the contents at "
+"this width."
+msgstr ""
+
+#: pro/admin/settings.pro.php:386
+msgid "Mega Submenu Max Height"
+msgstr ""
+
+#: pro/admin/settings.pro.php:387
+msgid ""
+"The maximum height of the submenu.  Submenus taller than this will get a "
+"vertical scrollbar.  Defaults to 600px."
+msgstr ""
+
+#: pro/admin/settings.pro.php:396
+msgid "Allow Dropdown within Mega Submenu"
+msgstr ""
+
+#: pro/admin/settings.pro.php:397
+msgid ""
+"<strong>Experimental</strong>.  Will allow dropdown submenus to appear "
+"within mega submenus.  May have side effects.  Not compatible with Slide "
+"submenu transition."
+msgstr ""
+
+#: pro/admin/settings.pro.php:421
+msgid "Default image settings"
+msgstr ""
+
+#: pro/admin/settings.pro.php:431
+msgid "Image sizes can be overridden on individual menu items"
+msgstr ""
+
+#: pro/admin/settings.pro.php:438
+msgid "Image Width"
+msgstr ""
+
+#: pro/admin/settings.pro.php:439
+msgid ""
+"The width attribute value for menu item images in pixels.  Do not include "
+"units.  Leave blank to use actual dimensions."
+msgstr ""
+
+#: pro/admin/settings.pro.php:447
+msgid "Image Height"
+msgstr ""
+
+#: pro/admin/settings.pro.php:448
+msgid ""
+"The height attribute value for menu item images in pixels.  Do not include "
+"units.  Leave blank to use actual dimensions."
+msgstr ""
+
+#: pro/admin/settings.pro.php:454
+msgid "Set Image Dimensions"
+msgstr ""
+
+#: pro/admin/settings.pro.php:455
+msgid ""
+"Set the actual width and height attributes on an image if none are set "
+"manually."
+msgstr ""
+
+#: pro/admin/settings.pro.php:463
+msgid "Use Image Title Attribute"
+msgstr ""
+
+#: pro/admin/settings.pro.php:472
+msgid "Disable Images on Mobile"
+msgstr ""
+
+#: pro/admin/settings.pro.php:473
+msgid ""
+"Detected via wp_is_mobile() - be aware if you set up caching, it would need "
+"to handle mobile device detection for this to work."
+msgstr ""
+
+#: pro/admin/settings.pro.php:481
+msgid "Lazy Load Images (Experimental)"
+msgstr ""
+
+#: pro/admin/settings.pro.php:482
+msgid ""
+"Only load the images when the submenu is opened.  More efficient bandwidth "
+"usage, but a slight delay for users depending on your server speed."
+msgstr ""
+
+#: pro/admin/settings.pro.php:492
+msgid "Submenu Background Images"
+msgstr ""
+
+#: pro/admin/settings.pro.php:501
+msgid "Hide Background Images on Mobile"
+msgstr ""
+
+#: pro/admin/settings.pro.php:523
+msgid ""
+"Visit the Theme Customizer to edit most of these settings with a Live "
+"Preview."
+msgstr ""
+
+#: pro/admin/settings.pro.php:529
+msgid "Force Styles"
+msgstr ""
+
+#: pro/admin/settings.pro.php:532
+msgid ""
+"Forces override of Skin styles.  For styles like border colors, also adds a "
+"border width and style, which may override skin settings."
+msgstr ""
+
+#: pro/admin/settings.pro.php:538
+msgid "Menu Bar Background"
+msgstr ""
+
+#: pro/admin/settings.pro.php:549
+msgid "Transparent menu bar"
+msgstr ""
+
+#: pro/admin/settings.pro.php:566
+msgid "Menu Bar Border"
+msgstr ""
+
+#: pro/admin/settings.pro.php:577
+msgid "Menu Bar Border Radius"
+msgstr ""
+
+#: pro/admin/settings.pro.php:579
+msgid "Pixel value (do not include px)"
+msgstr ""
+
+#: pro/admin/settings.pro.php:588
+msgid "Top Level Font Size"
+msgstr ""
+
+#: pro/admin/settings.pro.php:600
+msgid "Top Level Text Transform"
+msgstr ""
+
+#: pro/admin/settings.pro.php:618
+msgid "Top Level Font Weight"
+msgstr ""
+
+#: pro/admin/settings.pro.php:637
+msgid "Top Level Font Color"
+msgstr ""
+
+#: pro/admin/settings.pro.php:648
+msgid "Top Level Font Color [Activated]"
+msgstr ""
+
+#: pro/admin/settings.pro.php:659
+msgid "Top Level Font Color [Current]"
+msgstr ""
+
+#: pro/admin/settings.pro.php:670
+msgid "Top Level Font Color [Highlight]"
+msgstr ""
+
+#: pro/admin/settings.pro.php:682
+msgid "Top Level Background [Activated]"
+msgstr ""
+
+#: pro/admin/settings.pro.php:694
+msgid "Top Level Background [Current]"
+msgstr ""
+
+#: pro/admin/settings.pro.php:705
+msgid "Top Level Background [Highlight]"
+msgstr ""
+
+#: pro/admin/settings.pro.php:716
+msgid "Top Level Item Divider Color"
+msgstr ""
+
+#: pro/admin/settings.pro.php:727
+msgid "Top Level Item Divider Glow Opacity"
+msgstr ""
+
+#: pro/admin/settings.pro.php:729 pro/admin/settings.pro.php:740
+msgid ""
+"A number between 0 and 1 representing the opacity of the inner box shadow "
+"on the item's left edge."
+msgstr ""
+
+#: pro/admin/settings.pro.php:738
+msgid "Top Level Item Divider Glow Opacity [Active]"
+msgstr ""
+
+#: pro/admin/settings.pro.php:749
+msgid "Top Level Vertical Padding"
+msgstr ""
+
+#: pro/admin/settings.pro.php:760
+msgid "Top Level Horizontal Padding"
+msgstr ""
+
+#: pro/admin/settings.pro.php:771
+msgid "Leave space for submenu indicator"
+msgstr ""
+
+#: pro/admin/settings.pro.php:787
+msgid "Align submenu indicator"
+msgstr ""
+
+#: pro/admin/settings.pro.php:802
+msgid "Top Level Menu Item Height"
+msgstr ""
+
+#: pro/admin/settings.pro.php:804
+msgid ""
+"Generally best to leave blank and use the Top Level Vertical Padding "
+"setting to adjust menu bar height"
+msgstr ""
+
+#: pro/admin/settings.pro.php:827
+msgid "Submenu Border Color"
+msgstr ""
+
+#: pro/admin/settings.pro.php:838
+msgid "Submenu Dropshadow Opacity"
+msgstr ""
+
+#: pro/admin/settings.pro.php:840
+msgid ""
+"A number between 0 and 1 that determines the opacity of the submenu drop "
+"shadow.  Set to 0 to remove."
+msgstr ""
+
+#: pro/admin/settings.pro.php:850
+msgid "Submenu Fallback Font Color"
+msgstr ""
+
+#: pro/admin/settings.pro.php:861
+msgid "Submenu Minimum Column Width"
+msgstr ""
+
+#: pro/admin/settings.pro.php:863
+msgid "Use with caution"
+msgstr ""
+
+#: pro/admin/settings.pro.php:870
+msgid "Submenu Highlight Font Color"
+msgstr ""
+
+#: pro/admin/settings.pro.php:882
+msgid "Submenu Item Padding"
+msgstr ""
+
+#: pro/admin/settings.pro.php:898
+msgid "Column Header Font Size"
+msgstr ""
+
+#: pro/admin/settings.pro.php:909
+msgid "Column Header Font Color"
+msgstr ""
+
+#: pro/admin/settings.pro.php:920
+msgid "Column Header Font Color [Hover]"
+msgstr ""
+
+#: pro/admin/settings.pro.php:931
+msgid "Column Header Font Color [Current]"
+msgstr ""
+
+#: pro/admin/settings.pro.php:942
+msgid "Column Header Font Weight"
+msgstr ""
+
+#: pro/admin/settings.pro.php:960
+msgid "Column Header Border Color"
+msgstr ""
+
+#: pro/admin/settings.pro.php:971
+msgid "Display Header Border Color"
+msgstr ""
+
+#: pro/admin/settings.pro.php:992
+msgid "Normal Items Font Color"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1003
+msgid "Normal Items Font Color [Hover]"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1014
+msgid "Normal Items Font Color [Current]"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1025
+msgid "Normal Items Font Size"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1036
+msgid "Normal Items Background Hover"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1048
+msgid "Flyout Items Vertical Padding"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1061
+msgid "Description Font Size"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1072
+msgid "Description Font Color"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1083
+msgid "Description Text Transform"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1102
+msgid "Top Level Arrow Color"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1112
+msgid "Submenu Arrow Color"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1124
+msgid "Horizontal Rule Color"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1137
+msgid "Responsive Toggle Background"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1148
+msgid "Responsive Toggle Font Color"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1159
+msgid "Responsive Toggle Background [Hover]"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1170
+msgid "Responsive Toggle Font Color [Hover]"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1183
+msgid "Search Bar Background"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1194
+msgid "Search Bar Text Color"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1205
+msgid "Search Bar Placeholder Color"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1216
+msgid "Search Bar Icon Color"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1234
+msgid "Rows"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1242
+msgid "Row Spacing"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1243
+msgid "The bottom margin to apply to rows."
+msgstr ""
+
+#: pro/admin/settings.pro.php:1266
+msgid "Icon Width"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1267
+msgid ""
+"The width to allot for the icon.  Icon will be centered within this width.  "
+"1.3em by default."
+msgstr ""
+
+#: pro/admin/settings.pro.php:1275
+msgid "Display Icons"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1276
+msgid ""
+"If your text is too long to fit on one line along with the icon, set the "
+"icon display to Inline so that the icon and text will appear on the same "
+"line."
+msgstr ""
+
+#: pro/admin/settings.pro.php:1280
+msgid "Block"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1281
+msgid "Inline"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1293
+msgid "Font"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1294
+msgid ""
+"Set a font for the menu.  Note that this may be overridden by the CSS of "
+"some themes."
+msgstr ""
+
+#: pro/admin/settings.pro.php:1301
+msgid "Google Font"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1302
+msgid ""
+"Using this property will (1) load the Google Font asset and (2) set this "
+"font as the menu font."
+msgstr ""
+
+#: pro/admin/settings.pro.php:1314
+msgid "Google Font Style"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1315
+msgid ""
+"Select the style to use for the menu.  Note that not all Google Fonts "
+"support all styles."
+msgstr ""
+
+#: pro/admin/settings.pro.php:1326
+msgid "Custom Font Property"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1327
+msgid ""
+"Set a custom <strong>font</strong> CSS property for the menu.  Example: "
+"<strong><code>bold 12px/24px Helvetica, Arial, sans-serif</code></strong>  "
+"Not necessary in conjuction with Google Font setting above."
+msgstr ""
+
+#: pro/admin/settings.pro.php:1347
+msgid "Container Tag"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1348
+msgid "The tag that wraps the entire menu.  Switch to div for non-HTML5 sites."
+msgstr ""
+
+#: pro/admin/settings.pro.php:1360
+msgid "Allow Shortcodes in Navigation Label & Description"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1361
+msgid ""
+"Enable to process shortcodes in the menu item Navigation Label and "
+"Description settings."
+msgstr ""
+
+#: pro/admin/settings.pro.php:1369
+msgid "Submenu Settings"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1377
+msgid "Display Submenu Indicators"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1378
+msgid "Display an arrow indicator when a drop submenu exists."
+msgstr ""
+
+#: pro/admin/settings.pro.php:1386
+msgid "Display Submenu Close Button"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1387
+msgid "Display an x to close the submenu (at all sizes).  Useful for click trigger."
+msgstr ""
+
+#: pro/admin/settings.pro.php:1405
+msgid "Theme Location Instance"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1408
+msgid ""
+"Determines which instance of the theme location UberMenu should apply to.  "
+"0 means apply to all; set to 1 to apply to only the first, 2 to the second, "
+"etc.  Useful if your theme is reusing theme locations for mobile menu, "
+"sticky menu, etc."
+msgstr ""
+
+#: pro/admin/settings.pro.php:1423
+msgid "Export"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1435
+msgid "Import"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1499 pro/admin/settings.pro.php:1809
+msgid "Assets"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1506
+msgid "Load Custom Stylesheet"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1507
+msgid ""
+"Create a custom.css in the <code>custom/</code> directory.  You may wish to "
+"disable the skin preset."
+msgstr ""
+
+#: pro/admin/settings.pro.php:1515
+msgid "Load Custom Javascript"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1516
+msgid "Create a custom.js in the <code>custom/</code> directory."
+msgstr ""
+
+#: pro/admin/settings.pro.php:1524
+msgid "Load UberMenu Core Layout"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1525
+msgid "Don't disable this unless you include it elsewhere"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1533
+msgid "Load Font Awesome"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1534
+msgid ""
+"If you are already loading Font Awesome 4 elsewhere in your setup, you can "
+"disable this."
+msgstr ""
+
+#: pro/admin/settings.pro.php:1542
+msgid "Load Google Maps API"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1543
+msgid ""
+"If you are already loading the Google Maps API, or if you do not need "
+"Google Maps in your menu, you can disable this."
+msgstr ""
+
+#: pro/admin/settings.pro.php:1558
+msgid "Responsive Breakpoint"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1560
+msgid ""
+"The viewport width at which the menu will collapse to mobile menu.  959 by "
+"default"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1566
+msgid "Determine Retractor Display By"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1567
+msgid ""
+"Choose when the retractors should be shown.  Note that if you are using a "
+"caching plugin, you'll need to configure it properly to allow the Mobile "
+"option to work; Using Touch Detection may result in the Close button "
+"appearing on desktop browsers that support touch events."
+msgstr ""
+
+#: pro/admin/settings.pro.php:1571
+msgid "Responsive - Display below responsive breakpoint"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1572
+msgid "Mobile - Use wp_is_mobile() mobile device detection"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1573
+msgid "Touch Detection - Display when browser supports touch events"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1600
+msgid "Number of Widget Areas"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1602
+msgid "Enter the number of widget areas to auto-generate"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1608
+msgid "Widget Area Names"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1610
+msgid "Comma delimited list of widget area names to assign"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1616
+msgid "Allow Top Level Widgets"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1619
+msgid ""
+"Normally, widgets are only placed in a submenu.  Enable this to allow "
+"widgets to be placed in the top level of the menu."
+msgstr ""
+
+#: pro/admin/settings.pro.php:1631 pro/admin/settings.pro.php:1821
+msgid "Advanced Menu Items"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1637
+msgid "Maximum Autocomplete Term Results"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1638
+msgid ""
+"The maximum number of results that can appear in a Dynamic Posts or Dynamic "
+"Terms term autocomplete setting.  Limited for performance reasons for sites "
+"with huge numbers of terms."
+msgstr ""
+
+#: pro/admin/settings.pro.php:1646
+msgid "Maximum Autocomplete Post Results"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1647
+msgid ""
+"The maximum number of results that can appear in a Dynamic Posts post "
+"autocomplete setting.  Limited for performance reasons for sites with huge "
+"numbers of posts."
+msgstr ""
+
+#: pro/admin/settings.pro.php:1659
+msgid "Display UberMenu Toolbar"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1662
+msgid ""
+"Display the UberMenu menu in the WordPress Toolbar.  Will ony be displayed "
+"to admins."
+msgstr ""
+
+#: pro/admin/settings.pro.php:1670
+msgid "Theme Integration / Interference"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1673
+msgid "Settings to help tame misbehaving themes.  See also: "
+msgstr ""
+
+#: pro/admin/settings.pro.php:1678
+msgid "Force Filter UberMenu Settings"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1681
+msgid ""
+"Sometimes theme filters will override UberMenu's filters, preventing "
+"UberMenu from properly integrating.  Enable this to try to force UberMenu's "
+"filters"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1687
+msgid "Disable Menu Item Class Filtering"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1690
+msgid ""
+"Some themes or plugins filter the core menu item classes, which can break "
+"things.  Enable this setting to attempt to remove them.  Please note this "
+"is a core hook, and disabling all filters on this hook could also disable "
+"functionality you want."
+msgstr ""
+
+#: pro/admin/settings.pro.php:1711
+msgid "Strict Mode"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1714
+msgid ""
+"Only auto-apply UberMenu to activated theme locations.  You should not "
+"deactivate this unless your theme is improperly using theme locations, as "
+"this will apply UberMenu to ALL menus."
+msgstr ""
+
+#: pro/admin/settings.pro.php:1720
+msgid "Register Easy Integration UberMenu Theme Location"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1723
+msgid ""
+"When enabled, creates a new theme location called \"ubermenu\" which you "
+"can use to insert into your theme."
+msgstr ""
+
+#: pro/admin/settings.pro.php:1734
+msgid "Reset Style Customization Settings"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1735
+msgid "Reset Style Customizations"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1735
+msgid "Reset Style Customization Settings to the factory defaults."
+msgstr ""
+
+#: pro/admin/settings.pro.php:1742
+msgid "Widget Area Manager"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1743
+msgid "Manage Widget Areas"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1743
+msgid ""
+"Choose which Custom Widget Areas to delete.  Useful for orphaned widget "
+"areas from deleted menu items."
+msgstr ""
+
+#: pro/admin/settings.pro.php:1753 pro/admin/settings.pro.php:1836
+msgid "Diagnostics"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1759
+msgid "Enable Diagnostics (Experimental, Alpha status)"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1760
+msgid "Enable front end diagnostics system."
+msgstr ""
+
+#: pro/admin/settings.pro.php:1824
+msgid "Theme Integration"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1923 pro/admin/settings.pro.php:1989
+msgid "Support Forum"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1924
+msgid ""
+"Didn't find the answer you needed in the Knowledgebase or Video Tutorials?  "
+"Visit the "
+msgstr ""
+
+#: pro/admin/settings.pro.php:1932 pro/admin/settings.pro.php:1955
+#: pro/admin/settings.pro.php:1981 pro/toolbar.php:120
+msgid "Video Tutorials"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1949
+msgid "Help"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1952 pro/toolbar.php:96
+msgid "Knowledgebase"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1958
+msgid "Support"
+msgstr ""
+
+#: pro/admin/settings.pro.php:1973
+msgid "Search the Knowledgebase"
+msgstr ""
+
+#: pro/admin/settings.pro.php:2019 pro/admin/settings.pro.php:2029
+msgid "Delete"
+msgstr ""
+
+#: pro/admin/settings.pro.php:2041
+msgid "Delete Configuration"
+msgstr ""
+
+#: pro/admin/settings.pro.php:2042
+msgid "Permanently Delete Configuration"
+msgstr ""
+
+#: pro/fonts.php:131
+msgid "Light"
+msgstr ""
+
+#: pro/fonts.php:143
+msgid "Bold"
+msgstr ""
+
+#: pro/menuitems/UberMenuItemDynamicPosts.class.php:229
+#: pro/menuitems/UberMenuItemDynamicTerms.class.php:97
+msgid "No results found"
+msgstr ""
+
+#: pro/menuitems/UberMenuItemDynamicPosts.class.php:231
+#: pro/menuitems/UberMenuItemDynamicTerms.class.php:110
+msgid "Query Arguments"
+msgstr ""
+
+#: pro/menuitems/UberMenuItemDynamicTerms.class.php:83
+#: pro/menuitems/UberMenuItemDynamicTerms.class.php:100
+msgid "Please select at least one taxonomy in the Dynamic Terms settings"
+msgstr ""
+
+#: pro/menuitems/UberMenuItemDynamicTerms.class.php:103
+msgid "Make sure you only select the taxonomies that you want to display terms from"
+msgstr ""
+
+#: pro/menuitems/UberMenuItemDynamicTerms.class.php:106
+msgid "Taxonomies"
+msgstr ""
+
+#: pro/menuitems/UberMenuItemTabs.class.php:51
+msgid "To create tabs, add child items to the Tab Item."
+msgstr ""
+
+#: pro/toolbar.php:30
+msgid "Customize"
+msgstr ""
+
+#: pro/toolbar.php:33 pro/toolbar.php:45
+msgid "Configure the UberMenu Settings"
+msgstr ""
+
+#: pro/toolbar.php:42
+msgid "UberMenu Control Panel"
+msgstr ""
+
+#: pro/toolbar.php:54
+msgid "Edit Menus"
+msgstr ""
+
+#: pro/toolbar.php:57
+msgid "Add, remove, and configure menu items"
+msgstr ""
+
+#: pro/toolbar.php:72
+msgid "Configure"
+msgstr ""
+
+#: pro/toolbar.php:83
+msgid "Assign Menus"
+msgstr ""
+
+#: pro/toolbar.php:86
+msgid "Theme Location Manager"
+msgstr ""
+
+#: pro/toolbar.php:99 pro/toolbar.php:111
+msgid "UberMenu Knowledgebase / Support Guide"
+msgstr ""
+
+#: pro/toolbar.php:108
+msgid "Documentation"
+msgstr ""
+
+#: pro/toolbar.php:123
+msgid "UberMenu Video Tutorials"
+msgstr ""
+
+#: pro/toolbar.php:132
+msgid "Troubleshooter"
+msgstr ""
+
+#: pro/toolbar.php:135
+msgid "UberMenu Troubleshooter"
+msgstr ""
+
+#: pro/toolbar.php:144
+msgid "Support / Help"
+msgstr ""
+
+#: pro/toolbar.php:147
+msgid "UberMenu Support Center"
+msgstr ""
+
+#: pro/toolbar.php:164
+msgid "Diagnostics (Alpha)"
+msgstr ""
+
+#: pro/toolbar.php:167
+msgid "Load diagnostics script (experimental feature in Alpha development)"
+msgstr ""
+
+#: pro/toolbar.php:181
+msgid ""
+"If this message does not disappear, it means that UberMenu's javascript has "
+"not been able to load.  This most commonly indicates that you have a "
+"javascript error on this page, which will need to be resolved in order to "
+"allow UberMenu to run."
+msgstr ""
+
+#: pro/updates/backup.php:193
+msgid ""
+"Could not restore custom.css file, as the directory is not writable.  You "
+"can manually restore the file from the wp-content/uploads/ubermenu_backups "
+"directory"
+msgstr ""
+
+#: pro/updates/updater.php:105
+msgid "Updates"
+msgstr ""
+
+#: pro/updates/updater.php:108
+msgid "Backups"
+msgstr ""
+
+#: pro/updates/updater.php:111
+msgid "Account Info"
+msgstr ""
+
+#: pro/updates/updater.php:124
+msgid "Custom Asset Backups"
+msgstr ""
+
+#: pro/updates/updater.php:125
+msgid ""
+"UberMenu will attempt to automatically backup and restore your custom.css "
+"and custom.js files when you update"
+msgstr ""
+
+#: pro/updates/updater.php:132
+msgid "Backup custom assets"
+msgstr ""
+
+#: pro/updates/updater.php:133
+msgid ""
+"Automatically backup custom.css and custom.js so that they can be restored "
+"after updating the plugin"
+msgstr ""
+
+#: pro/updates/updater.php:141
+msgid "Automatic backups status"
+msgstr ""
+
+#: pro/updates/updater.php:150
+msgid "Update Notifications"
+msgstr ""
+
+#: pro/updates/updater.php:151
+msgid "Enter your Envato info to receive update notifications"
+msgstr ""
+
+#: pro/updates/updater.php:158
+msgid "CodeCanyon Username"
+msgstr ""
+
+#: pro/updates/updater.php:167
+msgid "API Key"
+msgstr ""
+
+#: pro/updates/updater.php:168
+msgid ""
+"Enter your Envato API Key.  Create an API key at codecanyon.net by visiting "
+"your Settings Page and clicking \"API Keys\" in the left menu."
+msgstr ""
+
+#: pro/updates/updater.php:175
+msgid "Purchase Code"
+msgstr ""
+
+#: pro/updates/updater.php:176
+msgid "Enter your Envato Purchase Code"
+msgstr ""
+
+#: pro/widget.php:24
+msgid "UberMenu Navigation"
+msgstr ""
+
+#: pro/widget.php:27
+msgid ""
+"Place an UberMenu in a Widget Area.  Do NOT place in an [UberMenu] Widget "
+"Area."
+msgstr ""
+
+#: pro/widget.php:133
+msgid "This widget inserts and UberMenu in one of two ways:"
+msgstr ""
+
+#: pro/widget.php:146
+msgid "1. By Menu Configuration"
+msgstr ""
+
+#: pro/widget.php:147
+msgid ""
+"(1) Set the UberMenu Configuration to use. The menu set for that "
+"Configuration's \"Default Manual Integration Menu\" will be used by "
+"default.  You can override the menu used by using the Menu setting below."
+msgstr ""
+
+#: pro/widget.php:150
+msgid "UberMenu Configuration:"
+msgstr ""
+
+#: pro/widget.php:152
+msgid "[None - Use a Theme Location]"
+msgstr ""
+
+#: pro/widget.php:168
+msgid "Menu (optional):"
+msgstr ""
+
+#: pro/widget.php:170
+msgid "[Automatic]"
+msgstr ""
+
+#: pro/widget.php:183
+msgid "2. By Theme Location"
+msgstr ""
+
+#: pro/widget.php:184
+msgid ""
+"Alternatively, set a Theme Location to just insert a standard menu that you "
+"can then activate as an UberMenu."
+msgstr ""
+
+#: pro/widget.php:190
+msgid "Theme Location:"
+msgstr ""
+
+#: pro/widget.php:192
+msgid "[None]"
+msgstr ""
+
+#: pro/widgets.php:33
+msgid "UberMenu Custom Widget Area for Menu Item "
+msgstr ""
+
+#: pro/widgets.php:51
+msgid "You can assign this widget area to a menu item in Appearance > Menus"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "UberMenu 3 - The Ultimate WordPress Mega Menu"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wpmegamenu.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Easily create beautiful, flexible, responsive mega menus"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Chris Mavricos, SevenSpark"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://sevenspark.com"
+msgstr ""

@@ -1,0 +1,89 @@
+/* Tabs */
+
+.ubermenu .ubermenu-tabs{
+	position:relative;
+	width:100%;	/* Will be overridden by columns */
+}
+.ubermenu .ubermenu-tabs-group{
+	border-style:solid;
+}
+.ubermenu .ubermenu-tab .ubermenu-tab-content-panel{
+	position:absolute;
+	display:none;
+}
+.ubermenu .ubermenu-tab > .ubermenu-target,
+.ubermenu .ubermenu-tab .ubermenu-tab-content-panel{
+	/* Init border for later styling */
+	border-width:0;
+	border-style:solid;
+}
+.ubermenu-nojs .ubermenu-tab:hover > .ubermenu-tab-content-panel,
+.ubermenu .ubermenu-tab.ubermenu-active > .ubermenu-tab-content-panel{
+	display:block;
+}
+.ubermenu-nojs .ubermenu-tabs-show-default > .ubermenu-tabs-group > .ubermenu-tab:first-child > .ubermenu-tab-content-panel{
+	display:block; /* Show first tab panel */
+}
+.ubermenu-nojs .ubermenu-tabs-show-default:hover > .ubermenu-tabs-group > .ubermenu-tab:first-child > .ubermenu-tab-content-panel{
+	display:none; /* Hide first tab panel when showing others */
+}
+.ubermenu-nojs .ubermenu-tabs-show-default:hover > .ubermenu-tabs-group > .ubermenu-tab:first-child:hover > .ubermenu-tab-content-panel{
+	display:block; /* Show first tab panel when hovering in its tab */
+}
+
+/* Tabs Left */
+.ubermenu .ubermenu-tab-layout-left > .ubermenu-tabs-group{
+	float:left;
+	border-width:0 1px 0 0;
+}
+.ubermenu .ubermenu-tab-layout-left > .ubermenu-tabs-group > .ubermenu-tab > .ubermenu-tab-content-panel{
+	right:0;
+	top:0;
+}
+.ubermenu-sub-indicators .ubermenu-tabs.ubermenu-tab-layout-left > .ubermenu-tabs-group > .ubermenu-has-submenu-drop > .ubermenu-target:after{
+	content:"\f105"; /*"\f0da";*/
+}
+
+/* Tabs Right */
+.ubermenu .ubermenu-tab-layout-right > .ubermenu-tabs-group{
+	float:right;
+	border-width:0 0 0 1px;
+}
+.ubermenu .ubermenu-tab-layout-right > .ubermenu-tabs-group > .ubermenu-tab > .ubermenu-tab-content-panel{
+	left:0;
+	top:0;
+}
+.ubermenu .ubermenu-tab-layout-right > .ubermenu-tabs-group > .ubermenu-has-submenu-drop > .ubermenu-target{
+	padding-left:25px;
+	padding-right:20px;
+}
+.ubermenu-sub-indicators .ubermenu-tab-layout-right > .ubermenu-tabs-group > .ubermenu-has-submenu-drop > .ubermenu-target:after{
+	content:"\f104"; /*"\f0da";*/
+	right:auto;
+	left:10px;
+}
+
+/* Tabs Top */
+.ubermenu .ubermenu-tab-layout-top > .ubermenu-tabs-group{
+// 	border-width:0 0 1px 0;
+	border-width:0;
+}
+.ubermenu .ubermenu-tab-layout-top > .ubermenu-tabs-group > .ubermenu-tab > .ubermenu-tab-content-panel{
+	left:0;
+	top:auto;
+	border-width:1px 0 0 0;
+}
+
+/* Tabs Bottom */
+.ubermenu .ubermenu-tab-layout-bottom > .ubermenu-tabs-group{
+	border-width:1px 0 0 0;
+	position:absolute;
+	bottom:0;
+}
+.ubermenu .ubermenu-tab-layout-bottom > .ubermenu-tabs-group > .ubermenu-tab > .ubermenu-tab-content-panel{
+	left:0;
+	bottom:100%;
+}
+.ubermenu-sub-indicators .ubermenu-tabs.ubermenu-tab-layout-bottom > .ubermenu-tabs-group > .ubermenu-has-submenu-drop > .ubermenu-target:after{
+	content:"\f106"; 
+}

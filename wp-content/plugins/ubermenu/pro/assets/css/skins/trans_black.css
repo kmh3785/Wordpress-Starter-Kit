@@ -1,0 +1,117 @@
+/* Transparent Black Skin v3.0 */
+/* UberMenu - Copyright 2011-2014, SevenSpark */
+.ubermenu-skin-trans-black {
+  font-size: 12px;
+  color: #cccccc;
+}
+.ubermenu-skin-trans-black .ubermenu-target {
+  color: #dddddd;
+}
+.ubermenu-skin-trans-black .ubermenu-target-description {
+  color: #cccccc;
+}
+.ubermenu-skin-trans-black.ubermenu-responsive-toggle {
+  background: transparent;
+  color: #444444;
+  font-size: 12px;
+  text-transform: none;
+  font-weight: bold;
+}
+.ubermenu-skin-trans-black.ubermenu-responsive-toggle:hover {
+  background: transparent;
+  color: #222222;
+}
+.ubermenu-skin-trans-black {
+  border: none;
+  background: transparent;
+}
+.ubermenu-skin-trans-black .ubermenu-item-level-0.ubermenu-current-menu-item > .ubermenu-target,
+.ubermenu-skin-trans-black .ubermenu-item-level-0.ubermenu-current-menu-parent > .ubermenu-target,
+.ubermenu-skin-trans-black .ubermenu-item-level-0.ubermenu-current-menu-ancestor > .ubermenu-target {
+  color: #000000;
+  background: transparent;
+}
+.ubermenu-skin-trans-black .ubermenu-item.ubermenu-item-level-0 > .ubermenu-highlight {
+  color: #4d90fe;
+  background: transparent;
+}
+.ubermenu-skin-trans-black.ubermenu-vertical .ubermenu-item-level-0 > .ubermenu-target {
+  background: transparent;
+}
+.ubermenu-skin-trans-black .ubermenu-item-level-0 > .ubermenu-target {
+  font-weight: bold;
+  color: #666666;
+  text-transform: none;
+  border-left: none;
+  -webkit-box-shadow: inset 1px 0 0 0 rgba(255, 255, 255, 0.1);
+  -moz-box-shadow: inset 1px 0 0 0 rgba(255, 255, 255, 0.1);
+  box-shadow: inset 1px 0 0 0 rgba(255, 255, 255, 0.1);
+}
+.ubermenu-skin-trans-black .ubermenu-item-level-0:first-child > .ubermenu-target {
+  box-shadow: none;
+}
+.ubermenu-skin-trans-black .ubermenu-item-level-0:hover > .ubermenu-target,
+.ubermenu-skin-trans-black .ubermenu-item-level-0.ubermenu-active > .ubermenu-target {
+  background: transparent;
+  color: #111111;
+}
+.ubermenu-skin-trans-black .ubermenu-item-level-0 > .ubermenu-submenu-type-stack > .ubermenu-item > .ubermenu-target {
+  color: #666666;
+}
+.ubermenu-skin-trans-black .ubermenu-item-level-0 > .ubermenu-submenu-type-stack > .ubermenu-item > .ubermenu-target:hover {
+  color: #111111;
+}
+.ubermenu-skin-trans-black .ubermenu-submenu.ubermenu-submenu-drop {
+  background: rgba(0, 0, 0, 0.9);
+  border: 1px solid #111111;
+}
+.ubermenu-skin-trans-black.ubermenu-horizontal .ubermenu-item-level-0 > .ubermenu-submenu-drop {
+  border-top: none;
+}
+.ubermenu-skin-trans-black .ubermenu-tab-content-panel {
+  background: rgba(0, 0, 0, 0.9);
+}
+.ubermenu-skin-trans-black .ubermenu-submenu,
+.ubermenu-skin-trans-black .ubermenu-submenu .ubermenu-target {
+  color: #d9d9d9;
+}
+.ubermenu-skin-trans-black .ubermenu-submenu .ubermenu-highlight {
+  color: #4d90fe;
+}
+.ubermenu-skin-trans-black .ubermenu-submenu .ubermenu-target:hover,
+.ubermenu-skin-trans-black .ubermenu-submenu .ubermenu-active > .ubermenu-target {
+  color: #ffffff;
+}
+.ubermenu-skin-trans-black .ubermenu-submenu .ubermenu-target > .ubermenu-target-description {
+  color: #aaaaaa;
+}
+.ubermenu-skin-trans-black .ubermenu-submenu .ubermenu-active > .ubermenu-target > .ubermenu-target-description {
+  color: #666666;
+}
+.ubermenu-skin-trans-black .ubermenu-submenu .ubermenu-item-header > .ubermenu-target {
+  font-weight: bold;
+  color: #eeeeee;
+}
+.ubermenu-skin-trans-black .ubermenu-submenu .ubermenu-item-header.ubermenu-has-submenu-stack > .ubermenu-target {
+  border-bottom: 1px solid #aaaaaa;
+}
+.ubermenu-skin-trans-black .ubermenu-submenu .ubermenu-item-header > .ubermenu-target:hover {
+  color: #ffffff;
+}
+.ubermenu-skin-trans-black .ubermenu-submenu .ubermenu-current-menu-item > .ubermenu-target {
+  color: #ffffff;
+  background: transparent;
+}
+.ubermenu-nojs.ubermenu-skin-trans-black .ubermenu-submenu .ubermenu-tabs .ubermenu-tab:hover > .ubermenu-target,
+.ubermenu-skin-trans-black .ubermenu-submenu .ubermenu-tab.ubermenu-active > .ubermenu-target {
+  background: #333333;
+  color: #eeeeee;
+}
+.ubermenu-skin-trans-black .ubermenu-tabs-group,
+.ubermenu-skin-trans-black .ubermenu-tab > .ubermenu-target,
+.ubermenu-skin-trans-black .ubermenu-tab-content-panel {
+  border-color: #000000;
+}
+.ubermenu-skin-trans-black .ubermenu-submenu-drop {
+  border-bottom-width: 3px;
+}

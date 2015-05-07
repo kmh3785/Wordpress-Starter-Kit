@@ -1,0 +1,7 @@
+<wpml-config>
+    <admin-texts>
+        <key name="wp-mega-menu-settings">
+            <key name="responsive-menu-toggle-text" />
+        </key>    
+    </admin-texts>   
+</wpml-config>

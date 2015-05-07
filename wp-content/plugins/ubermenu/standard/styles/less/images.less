@@ -1,0 +1,43 @@
+/* ========================================== */
+/*	LINK + IMAGE STYLES						  */
+/* ========================================== */
+
+#megaMenu .ss-nav-menu-with-img{
+	min-height:20px;			/* Height of Pic + Space */
+}
+#megaMenu > ul > li.menu-item.ss-nav-menu-with-img{
+	min-height:0px;
+}
+#megaMenu .ss-nav-menu-with-img img{
+	float:left;
+	display:block;
+}
+#megaMenu .ss-nav-menu-with-img.ss-nav-menu-notext > a > img,
+#megaMenu .ss-nav-menu-with-img.ss-nav-menu-notext > span.um-anchoremulator > img{
+	float:none;
+}
+#megaMenu .ss-nav-menu-with-img.ss-nav-menu-notext > a > .wpmega-item-description,
+#megaMenu .ss-nav-menu-with-img.ss-nav-menu-notext > span.um-anchoremulator > .wpmega-item-description{
+	padding-left:0px;	
+	padding-bottom:0px;
+}
+#megaMenu .ss-nav-menu-with-img > a > .wpmega-link-title,
+#megaMenu .ss-nav-menu-with-img > a > .wpmega-link-description,
+#megaMenu .ss-nav-menu-with-img > a > .wpmega-item-description,
+#megaMenu .ss-nav-menu-with-img > span.um-anchoremulator > .wpmega-link-title,
+#megaMenu .ss-nav-menu-with-img > span.um-anchoremulator > .wpmega-link-description,
+#megaMenu .ss-nav-menu-with-img > span.um-anchoremulator > .wpmega-item-description{
+	padding-left:30px;			/* Width of Pic + Space */
+	display:block;
+}
+#megaMenu ul li.menu-item ul .ss-nav-menu-with-img > a:before,
+#megaMenu ul li.menu-item ul .ss-nav-menu-with-img > a:after {
+	content:"";
+	display:table;
+}
+#megaMenu ul li.menu-item ul .ss-nav-menu-with-img > a:after {
+	clear:both;
+}
+#megaMenu ul li.menu-item ul .ss-nav-menu-with-img:not(.megaReg-with-sub) > a:after{
+	border:none !important;
+}

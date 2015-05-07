@@ -1,0 +1,41 @@
+//defaults
+@import "less/defaults.less";
+
+//special
+@skin_name:grey-white;
+
+@toggle_background:#222;
+@toggle_color:#eee;
+@toggle_background_hover:#111;
+@toggle_color_hover:#fff;
+
+@menu_bar_background: #222;
+@top_level_font_weight: bold;
+@top_level_color: #d9d9d9;
+@top_level_color_hover: #fff;
+@top_level_background_hover: #000;
+@top_level_text_transform:uppercase;
+@top_level_current_item_color: #fff;
+@top_level_current_item_background: #000;
+
+@dropdown_background: #f9f9f9;
+@dropdown_border: 1px solid #e0e0e0;
+
+@top_level_stack_color: @top_level_color;
+@top_level_stack_color_hover: @top_level_color_hover;
+
+
+//mixins
+.bar_mix(){
+	background:@menu_bar_background;
+}
+
+//skeleton
+@import "less/skeleton.less";
+
+
+//overrides
+.ubermenu-skin-@{skin_name} .ubermenu-submenu-drop{
+	border-bottom-width:3px;
+}
+.bar_without_border(@skin_name);

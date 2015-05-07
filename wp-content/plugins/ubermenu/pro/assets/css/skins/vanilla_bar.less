@@ -1,0 +1,54 @@
+//defaults
+@import "less/defaults.less";
+
+//special
+@skin_name:vanilla-bar;
+
+@toggle_background:#f9f9f9;
+@toggle_color:#888;
+@toggle_background_hover:#f0f0f0;
+@toggle_color_hover:#444;
+
+@menu_bar_background: #fefefe;
+@menu_bar_background_2: #f4f4f4;
+@menu_bar_border: 1px solid #e0e0e0;
+
+@top_level_font_weight: normal;
+@top_level_color: #888;
+@top_level_color_hover: #444;
+@top_level_background_hover: transparent;
+@top_level_text_transform:none;
+@top_level_current_item_color: #444;
+@top_level_current_item_background: transparent;
+@top_level_divider: @menu_bar_border;
+@top_level_glow_opacity:.9;
+
+@dropdown_background: #f9f9f9;
+@dropdown_border: 1px solid #e0e0e0;
+
+@header_color: #777;
+
+@submenu_target_color: #888;
+
+
+//mixins
+.bar_mix(){
+	//background:@menu_bar_background;
+	.gradient( @menu_bar_background , @menu_bar_background_2 );
+	.inner-glow (1px,1px,0,0,@top_level_glow_opacity);
+}
+.topglow(){
+	.inner-glow (1px,0,0,0,@top_level_glow_opacity);
+}
+
+//skeleton
+@import "less/skeleton.less";
+
+
+//overrides
+.ubermenu-skin-@{skin_name} .ubermenu-submenu-drop{
+	border-bottom-width:3px;
+}
+.bar_with_border(@skin_name);
+.top_border_spacer(@skin_name); //because menu bar has border
+//.submenu_border_spacer;	

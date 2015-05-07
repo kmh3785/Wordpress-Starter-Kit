@@ -1,0 +1,1893 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: UberMenu\n"
+"POT-Creation-Date: 2013-07-15 18:20-0500\n"
+"PO-Revision-Date: 2013-07-15 18:20-0500\n"
+"Last-Translator: \n"
+"Language-Team: SevenSpark <chris@sevenspark.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../ubermenu.lite.php:54
+msgid "To display the pencil icon, just add <em>icon-pencil</em>"
+msgstr ""
+
+#: ../ubermenu.lite.php:55
+msgid "Icon"
+msgstr ""
+
+#: ../core/UberMenu.class.php:640
+msgid "UberMenu Options"
+msgstr ""
+
+#: ../core/UberMenu.class.php:641 ../core/UberOptions.class.php:46
+#: ../standard/ubermenu.notifier.php:35
+msgid "UberMenu"
+msgstr ""
+
+#: ../core/UberMenu.class.php:657
+msgid "Basic Configuration"
+msgstr ""
+
+#: ../core/UberMenu.class.php:667
+msgid "Responsive Settings"
+msgstr ""
+
+#: ../core/UberMenu.class.php:668
+msgid ""
+"Knowledgebase: <a target=\"_blank\" href=\"http://sevenspark.com/docs/"
+"ubermenu-responsive\" >UberMenu Responsiveness</a>"
+msgstr ""
+
+#: ../core/UberMenu.class.php:675
+msgid "Responsive Mega Menu"
+msgstr ""
+
+#: ../core/UberMenu.class.php:676
+msgid ""
+"Enable UberMenu's responsive properties. Requires a responsive theme, "
+"otherwise you may have strange results if your theme is fixed-width."
+msgstr ""
+
+#: ../core/UberMenu.class.php:685
+msgid "Responsive Mega Menu - Toggle"
+msgstr ""
+
+#: ../core/UberMenu.class.php:686
+msgid "Display a toggle button to show/hide menu on mobile devices."
+msgstr ""
+
+#: ../core/UberMenu.class.php:694
+msgid "Responsive Mega Menu - Toggle Text"
+msgstr ""
+
+#: ../core/UberMenu.class.php:695
+msgid ""
+"Text or HTML to display on Toggle Button.  Set to a single space to disable "
+"text."
+msgstr ""
+
+#: ../core/UberMenu.class.php:704
+msgid "Display Close Button on iOS"
+msgstr ""
+
+#: ../core/UberMenu.class.php:705
+msgid ""
+"You can disable this if you do not wish to display the close button on "
+"iPads, iPhones, and iPods."
+msgstr ""
+
+#: ../core/UberMenu.class.php:718
+msgid "jQuery Animations &amp; Auto-positioning"
+msgstr ""
+
+#: ../core/UberMenu.class.php:726
+msgid "jQuery Enhanced"
+msgstr ""
+
+#: ../core/UberMenu.class.php:727
+msgid ""
+"Disable to use UberMenu without jQuery enhancement.  All submenus will be "
+"full-width by default."
+msgstr ""
+
+#: ../core/UberMenu.class.php:735
+msgid "Animation"
+msgstr ""
+
+#: ../core/UberMenu.class.php:738 ../standard/demo/demo.php:52
+msgid "Slide"
+msgstr ""
+
+#: ../core/UberMenu.class.php:739 ../standard/demo/demo.php:53
+msgid "Fade"
+msgstr ""
+
+#: ../core/UberMenu.class.php:740 ../standard/demo/demo.php:54
+msgid "None"
+msgstr ""
+
+#: ../core/UberMenu.class.php:749
+msgid "Animation Time"
+msgstr ""
+
+#: ../core/UberMenu.class.php:750
+msgid "Set how long the animation should take in milliseconds"
+msgstr ""
+
+#: ../core/UberMenu.class.php:759 ../standard/demo/demo.php:64
+msgid "Trigger"
+msgstr ""
+
+#: ../core/UberMenu.class.php:774
+msgid "Hover Intent Interval"
+msgstr ""
+
+#: ../core/UberMenu.class.php:775
+msgid ""
+"The number of milliseconds before the hover event is triggered.  Defaults to "
+"100. [Applies to trigger: Hover Intent]"
+msgstr ""
+
+#: ../core/UberMenu.class.php:784
+msgid "Hover Intent Timeout"
+msgstr ""
+
+#: ../core/UberMenu.class.php:785
+msgid ""
+"The number of milliseconds before the out event is triggered (milliseconds "
+"until the submenu closes after hover-off).  Defaults to 400. [Applies to "
+"trigger: Hover Intent]"
+msgstr ""
+
+#: ../core/UberMenu.class.php:794
+msgid "Full Width Submenus"
+msgstr ""
+
+#: ../core/UberMenu.class.php:795
+msgid ""
+"Enable to force all submenus to be full-width, regardless of their content.  "
+"Disable to size submenus to their content and position with Javascript."
+msgstr ""
+
+#: ../core/UberMenu.class.php:811
+msgid "Mobile Settings"
+msgstr ""
+
+#: ../core/UberMenu.class.php:819
+msgid "Force Click Trigger on Android"
+msgstr ""
+
+#: ../core/UberMenu.class.php:820
+msgid ""
+"<em>Makes Android interface act more like iOS</em>.  By default, Android "
+"will redirect to the top level menu item link URL as soon as it is tapped.  "
+"To display a submenu, users must tap, and without lifting their finger slide "
+"off of the menu item.  By enabling Force-Click, the menu touch interface on "
+"Android will work similarly to iOS: a tap will open the sub menu.  Tap + "
+"hold will follow the link."
+msgstr ""
+
+#: ../core/UberMenu.class.php:832
+msgid "Submenu Positioning"
+msgstr ""
+
+#: ../core/UberMenu.class.php:839
+msgid "Reposition submenus on window.load"
+msgstr ""
+
+#: ../core/UberMenu.class.php:840
+msgid ""
+"If your submenus aren't positioned properly, it may be because you have a "
+"font (like @font-face or Cufon) that needs to load before the menu items are "
+"positioned.  Turn this on to position your submenus once your font finishes "
+"loading."
+msgstr ""
+
+#: ../core/UberMenu.class.php:854 ../core/UberMenu.class.php:858
+#: ../core/UberOptions.class.php:76
+msgid "Descriptions"
+msgstr ""
+
+#: ../core/UberMenu.class.php:864
+msgid "You can turn on and off menu item descriptions on a per-level basis."
+msgstr ""
+
+#: ../core/UberMenu.class.php:869
+msgid "Display Top-Level Descriptions"
+msgstr ""
+
+#: ../core/UberMenu.class.php:874
+msgid "Display Sub-Header Descriptions"
+msgstr ""
+
+#: ../core/UberMenu.class.php:879
+msgid "Display Sub-Menu Item Descriptions"
+msgstr ""
+
+#: ../core/UberMenu.class.php:900
+msgid "Style Configuration"
+msgstr ""
+
+#: ../core/UberMenu.class.php:905
+msgid "Configure how you want to apply styles to the menu"
+msgstr ""
+
+#: ../core/UberMenu.class.php:910
+msgid "Style Application"
+msgstr ""
+
+#: ../core/UberMenu.class.php:918 ../standard/demo/demo.php:109
+msgid "Style Preset"
+msgstr ""
+
+#: ../core/UberMenu.class.php:919
+msgid ""
+"Only applicable if <strong>Use a Preset</strong> is selected above.  "
+"<strong><a target=\"_blank\" href=\"http://goo.gl/4lnno\">Get More Skins</"
+"a></strong>"
+msgstr ""
+
+#: ../core/UberMenu.class.php:934
+msgid "Use a Preset"
+msgstr ""
+
+#: ../core/UberMenu.class.php:935
+msgid "Select from the Preset Styles below"
+msgstr ""
+
+#: ../core/UberMenu.class.php:937
+msgid "Do Nothing "
+msgstr ""
+
+#: ../core/UberMenu.class.php:938
+msgid ""
+"I will manually include the skin styles elsewhere, like in my <code>style."
+"css</code>."
+msgstr ""
+
+#: ../core/UberMenu.class.php:959
+msgid "Show/Hide UberMenu Options"
+msgstr ""
+
+#: ../core/UberMenu.class.php:960
+msgid ""
+"UberMenu options set here only apply to menus that have been activated in "
+"the \"Activate UberMenu Locations\" meta box."
+msgstr ""
+
+#: ../core/UberMenu.class.php:984
+msgid ""
+"Make this item's submenu a mega menu.  Leave unchecked to use a flyout menu, "
+"or for menu items without submenus (this will remove the submenu indicator)."
+msgstr ""
+
+#: ../core/UberMenu.class.php:985
+msgid "Activate Mega Menu"
+msgstr ""
+
+#: ../core/UberMenu.class.php:998
+msgid ""
+"Make this item's submenu the full width of the menu bar.  Note that with "
+"javascript disabled, submenus are full-width by default.  This is horizontal-"
+"orientation specific.  To make a vertical menu full-width, set the width "
+"appropriately in the Basic Configuration Options."
+msgstr ""
+
+#: ../core/UberMenu.class.php:999
+msgid "Full Width Submenu"
+msgstr ""
+
+#: ../core/UberMenu.class.php:1009
+msgid ""
+"Select where to align the submenu.  Note that submenus can only be centered "
+"if jQuery Enhancements are enabled.  Horizontal-orientation specific."
+msgstr ""
+
+#: ../core/UberMenu.class.php:1010
+msgid "Align Mega Submenu"
+msgstr ""
+
+#: ../core/UberMenu.class.php:1013
+msgid "Left"
+msgstr ""
+
+#: ../core/UberMenu.class.php:1014
+msgid "Center"
+msgstr ""
+
+#: ../core/UberMenu.class.php:1015
+msgid "Right"
+msgstr ""
+
+#: ../core/UberMenu.class.php:1027
+msgid ""
+"<strong>Only valid for full-width submenus</strong>.  Set how many columns "
+"should be in each row in the submenu.  Columns will be sized evenly."
+msgstr ""
+
+#: ../core/UberMenu.class.php:1028
+msgid "Submenu Columns [FullWidth]"
+msgstr ""
+
+#: ../core/UberMenu.class.php:1031
+msgid "Automatic"
+msgstr ""
+
+#: ../core/UberMenu.class.php:1052
+msgid ""
+"Display this item as a header, like second-level menu items.  Good for "
+"splitting columns vertically without starting a new row"
+msgstr ""
+
+#: ../core/UberMenu.class.php:1053
+msgid "Header Display"
+msgstr ""
+
+#: ../core/UberMenu.class.php:1063
+msgid "Make this item stand out."
+msgstr ""
+
+#: ../core/UberMenu.class.php:1064
+msgid "Highlight this item"
+msgstr ""
+
+#: ../core/UberMenu.class.php:1074
+msgid ""
+"Use this on the item that should start the second column under the same "
+"header - for example, have two columns under \"Sports\""
+msgstr ""
+
+#: ../core/UberMenu.class.php:1075
+msgid "Start a new column (under same header)?"
+msgstr ""
+
+#: ../core/UberMenu.class.php:1085
+msgid ""
+"Begin a new row with this item.  You should always check this on the first "
+"item in the second row of your submenu."
+msgstr ""
+
+#: ../core/UberMenu.class.php:1086
+msgid "New Row (Vertical Division)"
+msgstr ""
+
+#: ../core/UberMenu.class.php:1096
+msgid ""
+"Remove the link altogether.  Can be used, for example, with content "
+"overrides or widgets."
+msgstr ""
+
+#: ../core/UberMenu.class.php:1097
+msgid "Disable Link"
+msgstr ""
+
+#: ../core/UberMenu.class.php:1215
+msgid "You currently have 0 widget areas set in your UberMenu options."
+msgstr ""
+
+#: ../core/UberMenu.class.php:1234 ../lite/UberMenuLite.class.php:86
+#: ../standard/UberMenuStandard.class.php:1797
+msgid "Read the Support Manual"
+msgstr ""
+
+#: ../core/UberMenu.class.php:1235 ../lite/UberMenuLite.class.php:87
+#: ../standard/UberMenuStandard.class.php:1798
+msgid "Support Manual &rarr;"
+msgstr ""
+
+#: ../core/UberMenu.class.php:1241 ../lite/UberMenuLite.class.php:93
+#: ../standard/UberMenuStandard.class.php:1804
+msgid "Watch Video Tutorials"
+msgstr ""
+
+#: ../core/UberMenu.class.php:1242 ../lite/UberMenuLite.class.php:94
+#: ../standard/UberMenuStandard.class.php:1805
+msgid "Video Tutorials &rarr;"
+msgstr ""
+
+#: ../core/UberMenu.class.php:1248
+msgid "Get images, widgets, shortcodes, and more with a full UberMenu license."
+msgstr ""
+
+#: ../core/UberMenu.class.php:1249
+msgid "Upgrade to UberMenu Plugin &rarr;"
+msgstr ""
+
+#: ../core/UberMenu.class.php:1292
+msgid "Menu Preview"
+msgstr ""
+
+#: ../core/UberMenu.class.php:1293
+msgid ""
+"Note: The menu preview gives a general impression of colors and styles, but "
+"will not give an exact representation of the menu in all cases - especially "
+"when using advanced methods like widgets and shortcodes."
+msgstr ""
+
+#: ../core/UberMenu.class.php:1549
+msgid "Black and White"
+msgstr ""
+
+#: ../core/UberMenu.class.php:1550
+msgid "Black and White 2.0"
+msgstr ""
+
+#: ../core/UberMenu.class.php:1551
+msgid "Vanilla"
+msgstr ""
+
+#: ../core/UberMenu.class.php:1552
+msgid "Vanilla Bar"
+msgstr ""
+
+#: ../core/UberMenu.class.php:1591
+msgid ""
+"Your server is running Suhosin, and your current maxvars settings may limit "
+"the number of menu items you can save."
+msgstr ""
+
+#: ../core/UberMenu.class.php:1606
+msgid "Menu Item Limit Warning"
+msgstr ""
+
+#: ../core/UberMenu.class.php:1619
+msgid "Menu Item Post variable count on last save"
+msgstr ""
+
+#: ../core/UberMenu.class.php:1623
+msgid "Approximate remaining menu items"
+msgstr ""
+
+#: ../core/UberMenuWalkerCore.class.php:296
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: ../core/UberMenuWalkerCore.class.php:300
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: ../core/UberMenuWalkerCore.class.php:323
+msgid "Edit Menu Item"
+msgstr ""
+
+#: ../core/UberMenuWalkerCore.class.php:332
+msgid "URL"
+msgstr ""
+
+#: ../core/UberMenuWalkerCore.class.php:339
+msgid "Navigation Label"
+msgstr ""
+
+#: ../core/UberMenuWalkerCore.class.php:345
+msgid "Title Attribute"
+msgstr ""
+
+#: ../core/UberMenuWalkerCore.class.php:352
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: ../core/UberMenuWalkerCore.class.php:357
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: ../core/UberMenuWalkerCore.class.php:363
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: ../core/UberMenuWalkerCore.class.php:369
+msgid "Description"
+msgstr ""
+
+#: ../core/UberMenuWalkerCore.class.php:373
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: ../core/UberMenuWalkerCore.class.php:382
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: ../core/UberMenuWalkerCore.class.php:387
+msgid "Remove"
+msgstr ""
+
+#: ../core/UberMenuWalkerCore.class.php:387
+msgid "Cancel"
+msgstr ""
+
+#: ../core/UberOptions.class.php:22
+msgid "Show/Hide CSS"
+msgstr ""
+
+#: ../core/UberOptions.class.php:32
+msgid ""
+"Your theme includes the lite version of UberMenu, which allows you to create "
+"awesome basic mega menus.  Upgrade to the full UberMenu MegaMenu Plugin to "
+"get even more advanced features, like images, widgets, shortcodes, and more!"
+msgstr ""
+
+#: ../core/UberOptions.class.php:36
+msgid "Learn More"
+msgstr ""
+
+#: ../core/UberOptions.class.php:43
+msgid "UberMenu Lite"
+msgstr ""
+
+#: ../core/UberOptions.class.php:44
+msgid "Included with theme"
+msgstr ""
+
+#: ../core/UberOptions.class.php:47
+msgid "Full plugin upgrade"
+msgstr ""
+
+#: ../core/UberOptions.class.php:51
+msgid "Click or Hover Trigger"
+msgstr ""
+
+#: ../core/UberOptions.class.php:56
+msgid "Slide or Fade Effects"
+msgstr ""
+
+#: ../core/UberOptions.class.php:61
+msgid "Responsive"
+msgstr ""
+
+#: ../core/UberOptions.class.php:66
+msgid "Flyout Menus"
+msgstr ""
+
+#: ../core/UberOptions.class.php:71
+msgid "Mega Menus"
+msgstr ""
+
+#: ../core/UberOptions.class.php:81 ../standard/UberMenuStandard.class.php:871
+msgid "Images"
+msgstr ""
+
+#: ../core/UberOptions.class.php:86
+msgid "Widgets"
+msgstr ""
+
+#: ../core/UberOptions.class.php:87
+msgid "Add widgets to your menu"
+msgstr ""
+
+#: ../core/UberOptions.class.php:92
+msgid "Custom Content"
+msgstr ""
+
+#: ../core/UberOptions.class.php:93
+msgid "Add any custom HTML or text content to your menu"
+msgstr ""
+
+#: ../core/UberOptions.class.php:98
+msgid "Google Maps"
+msgstr ""
+
+#: ../core/UberOptions.class.php:99
+msgid "Easily add Google Maps to your menu with a shortcode"
+msgstr ""
+
+#: ../core/UberOptions.class.php:104
+msgid "Recent Posts"
+msgstr ""
+
+#: ../core/UberOptions.class.php:105
+msgid "Display Recent Posts in your menu with a shortcode"
+msgstr ""
+
+#: ../core/UberOptions.class.php:110
+msgid "Contact Forms &amp; Shortcodes"
+msgstr ""
+
+#: ../core/UberOptions.class.php:111
+msgid "Display a Contact Form 7 form or any shortcode in your menu"
+msgstr ""
+
+#: ../core/UberOptions.class.php:116
+msgid "20+ Preset Styles"
+msgstr ""
+
+#: ../core/UberOptions.class.php:117
+msgid "Choose from over 20 preset styles"
+msgstr ""
+
+#: ../core/UberOptions.class.php:122
+#: ../standard/UberMenuStandard.class.php:936
+#: ../standard/UberMenuStandard.class.php:1776
+msgid "Style Generator"
+msgstr ""
+
+#: ../core/UberOptions.class.php:123
+msgid "Create your own skins with color pickers"
+msgstr ""
+
+#: ../core/UberOptions.class.php:128
+msgid "Compatible with UberMenu Extensions"
+msgstr ""
+
+#: ../core/UberOptions.class.php:129
+msgid ""
+"Extend the functionality of your menu with great extensions like <a href="
+"\"http://goo.gl/0LrTj\">Conditionals</a> and <a href=\"http://goo.gl/VOnRK"
+"\">Sticky</a>"
+msgstr ""
+
+#: ../core/UberOptions.class.php:142
+msgid ""
+"If you would like to hide this panel, you can do so by adding the following "
+"code to your functions.php file: "
+msgstr ""
+
+#: ../core/UberOptions.class.php:157
+msgid "There is a new version of UberMenu available."
+msgstr ""
+
+#: ../core/UberOptions.class.php:164
+msgid "Changelog"
+msgstr ""
+
+#: ../core/UberOptions.class.php:205
+msgid ""
+"Clicking the button below will bring you to sevenspark.com and automatically "
+"complete the basic form fields for the compatibility report.  However, you "
+"can edit this information and only what you submit will be recorded."
+msgstr ""
+
+#: ../core/UberOptions.class.php:207
+msgid "Answer Compatibility Questions"
+msgstr ""
+
+#: ../core/sparkoptions/SparkOptions.class.php:131
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: ../lite/UberMenuLite.class.php:72
+msgid "Images, Widgets, Shortcodes &amp; More UberMenu Features"
+msgstr ""
+
+#: ../lite/UberMenuLite.class.php:100
+msgid ""
+"Get even more mega menu awesomeness with the full plugin version of UberMenu"
+msgstr ""
+
+#: ../lite/UberMenuLite.class.php:101
+msgid "Get UberMenu Pro &rarr;"
+msgstr ""
+
+#: ../standard/ubermenu.notifier.php:35
+msgid "New Updates"
+msgstr ""
+
+#: ../standard/ubermenu.shortcodes.php:196
+msgid "Search"
+msgstr ""
+
+#: ../standard/ubermenu.shortcodes.php:197
+msgid "Go"
+msgstr ""
+
+#: ../standard/ubermenu.shortcodes.php:201
+#: ../standard/ubermenu.shortcodes.php:214
+msgid "Search for:"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:221
+msgid "UberMenu [Easy Integration]"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:352
+#, php-format
+msgid ""
+"Please activate UberMenu Easy Integration and set a menu in the %s theme "
+"location in Appearance > Nav Menus"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:413
+msgid "Activate Uber Menu Locations"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:432
+msgid ""
+"Select the Menu Locations to Megafy.  This must be activated for any Mega "
+"Menu Options to affect that Menu Location."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:447
+msgid "Save"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:453
+msgid ""
+"If more than 1 menu is being megafied in your theme, turn on Strict Mode in "
+"Appearance > UberMenu > Theme Integration."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:457
+msgid "Note you can only have 1 UberMenu per page."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:493
+#: ../standard/UberMenuStandard.class.php:581
+msgid "UberMenu Widget Area"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:506
+#, php-format
+msgid ""
+"Widget area will span width of submenu.  Add multiple widgets to create "
+"columns.  Select \"%s\" in your Menu Item under Appearance > Menus to add "
+"this widget area to your menu."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:514
+msgid "UberMenu Widget Area 1"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:518
+msgid ""
+"Widget area will span width of submenu.  Add multiple widgets to create "
+"columns.  Select \"UberMeu Widget Area 1\" in your Menu Item under "
+"Appearance > Menus to add this widget area to your menu."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:523
+#, php-format
+msgid "UberMenu Widget Area %d"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:527
+msgid ""
+"Widget area will span width of submenu.  Add multiple widgets to create "
+"columns.  Select this widget area in your Menu Item's \"Display a Widget Area"
+"\" option under Appearance > Menus to add this widget area to your menu."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:653
+msgid ""
+"Remove the Navigation Label text from the link.  Can be used, for example, "
+"with image-only links."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:654
+msgid "Disable Text"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:666
+msgid "Float the menu item to the right edge of the menu bar."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:667
+msgid "Align Menu Item to Right Edge"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:686
+msgid ""
+"Display custom content in this menu item.  This input accepts shortcodes so "
+"you can display things like contact forms, search boxes, or galleries.  "
+"Check \"Disable Link\" above to display only this content, instead of a link."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:687
+msgid "Custom Content (Content Override)"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:704
+msgid "Select the widget area to display"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:705
+msgid "Display a Widget Area"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:761 ../standard/demo/demo.php:79
+msgid "Orientation"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:762
+msgid ""
+"Choose a vertical (top to bottom) or horizontal (left to right) menu.  Note "
+"that if your horizontal menu is forced to have a narrow width by your theme, "
+"it may appear to be vertically oriented."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:764 ../standard/demo/demo.php:82
+msgid "Horizontal"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:765 ../standard/demo/demo.php:83
+msgid "Vertical"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:774
+msgid "Expand Menu Bar Full Width?"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:775
+msgid ""
+"Enable to have the menu bar fill its container.  Disable to size the menu "
+"bar to its contents. "
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:790
+msgid "Vertical Menu Sizing"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:798
+msgid "Vertical Mega Submenu Width"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:799
+msgid ""
+"Since the width of a submenu is constrained by the container that the "
+"UberMenu is placed in, you must set the width manually if you want it to be "
+"wider."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:811
+msgid "Descriptions, Shortcodes, Widgets"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:814
+msgid "Advanced Content Capabilities: Content Overrides, Shortcodes, Widgets"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:819
+msgid "Allow Content Overrides"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:820
+msgid ""
+"Content Overrides allow you to include non-links in the Mega Menu.  You can "
+"use shortcodes, which will allow you to put items like contact forms, search "
+"boxes, or galleries in your Menus"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:826
+msgid "Allow Shortcodes in Navigation Label &amp; Description"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:827
+msgid ""
+"Enable this setting to use shortcodes inside menu item titles and "
+"descriptions"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:833
+msgid "Number of Widget Areas"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:834
+msgid ""
+"Enter the number of widget areas/sidebars that should be generated for the "
+"UberMenu.  You can then add widgets through the normal means. <span class="
+"\"ss-infobox ss-infobox-warning\">This value must be 1 or greater to use "
+"widgets</span>"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:841
+msgid "Widget Area Names"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:842
+msgid ""
+"You can name your widget areas in order to better keep track of them.  "
+"Separate names with commas, e.g. <em>Contact Us Widget Area, Product List "
+"Widget Area</em>.   But keep in mind, you only need one widget area per row, "
+"which can container multiple widgets to create columns."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:849
+msgid "Allow Top-Level Widgets"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:850
+msgid ""
+"Turn this on to allow placing widgets in the top level, in addition to the "
+"submenu.  <span class=\"spark-infobox spark-infobox-warning\">Remember, if "
+"you place widgets in the top level, they will always be visible.  In many "
+"cases, this will break your layout.</span>"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:856
+msgid "Load Google Maps"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:857
+msgid ""
+"Loads the Google Maps API so you can use maps in your menu with the provided "
+"shortcode.  Note that jQuery Enhancements must be enabled in order to "
+"utilize the map shortcode."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:877
+msgid "Control how your images are sized and processed."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:882
+msgid "Resize Images"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:883
+msgid ""
+"Should the images all be sized the same?  <span class=\"spark-infobox\">This "
+"must be enabled if you wish to use Timthumb.</span>"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:889
+msgid "Image Width"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:890
+msgid ""
+"Setting this value is important for proper spacing in the menu, even if you "
+"aren't resizing your images."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:898
+msgid "Image Height"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:907
+msgid "Use Timthumb"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:908
+msgid ""
+"Use TimThumb to automatically scale and crop images to the preferred width "
+"and height.  <span class=\"spark-infobox\">You must follow the instructions "
+"in the UberMenu Support Guide to setup TimThumb for use.  Note that some "
+"hosts, especially shared hosting, will not allow you to use timthumb on "
+"their servers.</span>"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:923
+msgid "Custom CSS Tweaks"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:924
+msgid ""
+"Best for minor CSS tweaks.  Want to write a custom style?  Use <a href="
+"\"http://sevenspark.com/docs/ubermenu-custom-skin\" target=\"_blank\">custom."
+"css</a>.  <br/><br/><span class=\"spark-infobox\">These styles will be "
+"applied regardless of the options above</span>"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:941
+msgid ""
+"Please note that unless you set the <strong>Style Application</strong> to "
+"<strong>Style Generator</strong> in <em>UberMenu > Style Configuration</em>, "
+"these settings will have no effect.  <br/><br/><strong>Knowledgebase: <a "
+"target=\"_blank\" href=\"http://sevenspark.com/docs/ubermenu-style-generator"
+"\" title=\"Permalink to Style Generator\" rel=\"bookmark\">Style Generator</"
+"a></strong>"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:949
+msgid "Save Custom CSS to file"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:950
+msgid "Will attempt to save to a file, rather than including in site head."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:962
+msgid "Menu Bar"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:968
+msgid ""
+"When using the color pickers, (1) click the input box, (2) select your "
+"color, (3) <strong>click the colorwheel button in the lower right corner</"
+"strong> to set the color.  Do <strong>not</strong> include a # before your "
+"color in the input box."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:976
+msgid "Menu Bar Background"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:984
+msgid "Menu Bar Border"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:992
+msgid "Menu Bar Border Radius"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:993
+msgid "CSS3: only works in modern browsers."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1003
+msgid "Top Level"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1009
+msgid "Font Size"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1010
+msgid "Example: <em>12px</em> or <em>1.5em</em>"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1018
+msgid "Font Color"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1026
+msgid "Font Color [Hover]"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1034
+msgid "Font Color [Current Menu Item]"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1042
+msgid "Text Shadow"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1050
+msgid "Text Shadow [Hover]"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1059
+msgid "Text Transform"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1073
+msgid "Font Weight"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1086
+msgid "Item Divider Color"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1094
+msgid "Horizontal Padding"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1104
+msgid "Vertical Padding"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1114
+msgid "Glow Opacity"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1115
+msgid ""
+"The top and left edge are given a lighter glow to add depth.  Set a decimal "
+"between 0 and 1. For lighter menus, set a value closer to 1.  For darker "
+"menus, set a number closer to 0.  <span class=\"spark-infobox spark-infobox-"
+"warning\">If you have a \"white border\" on the top and left that you can't "
+"remove, set this to 0.  See also the [Hover] version.</span>"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1124
+msgid "Background Color [Hover]"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1132
+msgid "Glow Opacity [Hover]"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1133
+msgid ""
+"The top and left edge are given a lighter glow to add depth.  Set a decimal "
+"between 0 and 1. For lighter menus, set a value closer to 1.  For darker "
+"menus, set a number closer to 0."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1158
+msgid "Sub Menu Level"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1164
+msgid "Submenu Border Color"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1172
+msgid "Dropdown Background Color"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1173
+msgid ""
+"Set the second color to create a vertical gradient.  Leave blank for a flat "
+"color."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1180
+msgid "Submenu Font Color"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1181
+msgid ""
+"The default font color for the submenus - overridden by header and item "
+"colors"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1188
+msgid "Submenu Text Shadow Color"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1196
+msgid "Drop Shadow Color"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1204
+msgid "Minimum Column Width"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1205
+msgid ""
+"You can set the minimum width of the columns in the dropdown.  Useful to "
+"align columns in multi-row layouts."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1216
+msgid "Sub Menu Headers"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1222
+msgid "Header Font Color"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1230
+msgid "Header Link Font Color [Hover]"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1238
+msgid "Header Font Size"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1239
+#: ../standard/UberMenuStandard.class.php:1307
+#: ../standard/UberMenuStandard.class.php:1349
+msgid "Example: 12px or 1.5em"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1248
+msgid "Header Font Weight"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1260
+msgid "Header Underline Style"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1274
+msgid "Header Underline Color"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1284
+msgid "Sub Menu Links"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1290
+msgid "Submenu Link Font Color"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1298
+msgid "Submenu Link Font Color [Hover]"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1306
+msgid "Submenu Link Font Size"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1316
+msgid "Item Background Color"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1324
+msgid "Item Background Color [Hover]"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1334
+msgid "Miscellaneous"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1340
+msgid "Highlight Color"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1341
+msgid "Items that are highlighted will be displayed this color"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1348
+msgid "Description Font Size"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1358
+msgid "Description Font Color"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1366
+msgid "Description Transform"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1380
+msgid "Top Level Arrow Color"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1388
+msgid "Flyout Sub Level Arrow Color"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1397
+msgid "Top Level Searchbar Text Color"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1405
+msgid "Top Level Searchbar Text Background"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1413
+msgid "Top Level Searchbar Submit Button Text Color"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1421
+msgid "Top Level Searchbar Submit Button Background"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1429
+msgid "Top Level Searchbar Submit Button Text Color [Hover]"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1437
+msgid "Top Level Searchbar Submit Button Background [Hover]"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1447
+msgid "Preview"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1452
+msgid "Menu"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1453
+msgid "Select the menu you'd like to preview"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1472
+msgid "Theme Integration"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1477
+msgid "Help with integrating UberMenu with complex or misbehaving themes."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1482
+msgid "Strict Mode"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1483
+msgid ""
+"Disable Strict Mode <strong>if you have only one menu on your site</strong>, "
+"and it should be a mega menu, and your theme does not support Theme "
+"Locations.  Otherwise, leave this on or you may end up with the wrong menu "
+"megafied."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1489
+msgid "Easy Integration"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1490
+msgid ""
+"For themes that don't properly support WordPress 3 Menus.  Just turn this on "
+"and place <code>&lt;?php uberMenu_easyIntegrate(); ?&gt;</code> in your "
+"header.php file, or <code>[uberMenu_easyIntegrate]</code> in a text widget "
+"to place your menu."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1497
+msgid "Remove Theme Conflicts"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1498
+msgid ""
+"This attempts to remove previously registered javascript acting on the menu."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1504
+msgid "Minimize Residual Styling"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1505
+msgid ""
+"This will change the ID of the menu's top level UL.  If you still have "
+"residual styling, you likely need \n"
+"\t\t\t\t\t\tto manually edit the ID or class of the elements surrounding the "
+"<code>wp_nav_menu</code> call in your header.php."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1512
+msgid "Reset Div &amp; Span Styling"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1513
+msgid ""
+"Reset margins, padding, etc, on divs &amp; spans within the menu.  This will "
+"strip styling from some widgets or shortcodes that you add to the menu."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1519
+msgid "Use IE Fix Script"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1521
+msgid ""
+"Depending on how your theme is coded, some themes will require this for the "
+"menu to work properly while others will not.  IE is a fickle bitch, so try "
+"it both ways and see which works better for your theme."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1527
+msgid "Run jQuery in noConflict Mode"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1528
+msgid ""
+"If your theme does not load the default WordPress jQuery library, turn this "
+"on."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1534
+msgid "Load UberMenu on Login and Registration Pages"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1535
+msgid ""
+"Since WordPress login and registration pages do not include a menu by "
+"default, UberMenu won't load there.  If you are styling your login/"
+"registration page, turn this on - otherwise UberMenu will be completely "
+"unstyled."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1541
+msgid "Include jQuery"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1542
+msgid ""
+"This is REQUIRED.  Only disable this if your theme or another plugin already "
+"is not properly enqueueing jQuery.  <span class=\"spark-infobox spark-"
+"infobox-warning\"><strong>DO NOT DISABLE UNLESS YOU KNOW WHAT YOU ARE DOING!"
+"</strong></span>"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1548
+msgid "Include Hover Intent"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1549
+msgid ""
+"This is REQUIRED.  Only this if your theme or another plugin already "
+"includes hoverIntent.js.  <span class=\"spark-infobox spark-infobox-warning"
+"\"><strong>DO NOT DISABLE UNLESS YOU ARE CERTAIN!</strong></span>"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1555
+msgid "Default to theme menu in IE6"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1556
+msgid ""
+"UberMenu is not compatible with IE6, as noted in the product description.  "
+"By default, UberMenu will not load in IE6, in an effort to fall back to the "
+"default theme menu, which may or may not be IE6-compatible.  If for some "
+"reason you want to disable this feature, you can do so here."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1567
+msgid "Advanced Settings"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1571
+msgid "Warning"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1572
+msgid ""
+"Do not change advanced settings unless you are certain of what you are doing."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1578
+msgid "Menu Bar Width"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1579
+msgid ""
+"Enter a width in pixels.  UberMenu automatically sizes to its container, so "
+"you only need to use this if you want UberMenu to be a different size.  It "
+"will automatically be centered when possible.<span class=\"spark-infobox "
+"spark-infobox-warning\">Remember, your submenu's maximum width is restricted "
+"to the width of your menu bar by default.</span><span class=\"spark-infobox "
+"spark-infobox-warning\">Be sure to disable the Expand Menu Bar Full Width "
+"option in basic settings if you intend to use this</span>"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1590
+msgid "Center Menu Bar"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1591
+msgid ""
+"Coupled with the Menu Bar Width above, this will center your menu within its "
+"container."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1597
+msgid "Enable Clearfix"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1598
+msgid "Important for centering."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1604
+msgid "Inner Menu Width"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1605
+msgid ""
+"Enter a width in pixels (most common: 960).  This is useful for centering "
+"the menu items while allowing the menu bar to span the entire window."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1613
+msgid "Center Inner Menu"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1614
+msgid ""
+"Coupled with the Inner Menu Width above, this will center your inner menu "
+"within the menu bar.<span class=\"spark-infobox spark-infobox-warning\">You "
+"must set an explicit width above to center the menu.</span>"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1621
+msgid "Center Menu Items"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1622
+msgid ""
+"Center the menu items within the menu bar.  Note that using images, widgets "
+"or content overrides in the top level may break your layout with this option "
+"enabled.  Works best with basic text menu items."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1639
+msgid "HTML5"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1640
+msgid ""
+"Use the HTML5 <code>&lt;nav&gt;</code> element as the menu container.  <span "
+"class=\"spark-infobox spark-infobox-warning\">Only enable this if your theme "
+"supports HTML5!  Otherwise it'll break Internet Explorer</span>"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1645
+msgid "Include basic.css"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1646
+msgid ""
+"UberMenu's basic.css contains all the structural code for the menu.  <span "
+"class=\"spark-infobox spark-infobox-warning\">Without this code, the menu "
+"will not work.  Only disable this if you are going to manually include it "
+"elsewhere.</span>"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1652
+msgid "Development Mode"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1653
+msgid ""
+"Run in Development mode.  This will load the .dev.js ubermenu script rather "
+"than the minified version.  Easier for testing customizations and debugging."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1658
+msgid "Reset Options"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1659
+msgid "Reset UberMenu Settings to the factory defaults."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1664
+msgid "Auto Align (Deprecated)"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1665
+msgid ""
+"Automatically align the second-level menu items by setting all widths the "
+"width of the widest item in each submenu. <div class=\"spark-infobox spark-"
+"infobox-warning\">This feature remains for legacy use.  A better way to "
+"accomplish column alignment is to choose the \"Full Width\" option and set "
+"the number of columns in a menu item's settings</div>"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1674
+msgid "Update Alerts"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1675
+msgid "Check for updates and display an alert in the admin bar when available."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1682
+msgid "Show Compatibility Report Panel"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1683
+msgid ""
+"Disable this to hide the Compatibility Report Panel.  (After saving, you'll "
+"need to reload a second time before the change takes effect)."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1690
+msgid "Show Extensions &amp; Utilities Panel"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1691
+msgid ""
+"Disable this to hide the Extensions &amp; Utilities Panel.  (After saving, "
+"you'll need to reload a second time before the change takes effect)."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1699
+msgid "Include Custom Javascript"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1700
+msgid "Enable this to load the custom/custom.js file."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1710
+msgid "Compatibility Report"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1714
+msgid "Please Help Improve Theme/UberMenu Compatibility"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1715
+msgid ""
+"Please let me know about compatibility with your theme so I can work towards "
+"more universal UberMenu compatibility."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1729
+msgid "Extensions &amp; Utilities"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1733
+msgid "UberMenu Extensions &amp; Utilities"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1734
+msgid ""
+"The following are a selection of both free and premium extensions and "
+"utilities that can augment your UberMenu in a variety of scenarios.  <br/"
+"><br/>You can disable this panel if you wish in the Advanced Settings."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1777
+msgid ""
+"If custom file is not writable, adds <code>&lt;style&gt;</code> tags to "
+"<code>&lt;head&gt;</code>"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1779
+msgid "Custom"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1780
+msgid ""
+"Load <code>ubermenu/custom/custom.css</code>.  Always use this file for "
+"customizations!"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1811
+msgid "Troubleshoot problems you encounter"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1812
+msgid "Troubleshooter &rarr;"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1818
+msgid "Customization Assistant"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1819
+msgid "Customization Assistant &rarr;"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1825
+msgid "Submit a support request"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1826
+msgid "Support Forum &rarr;"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1832
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1833
+msgid "FAQs  &rarr;"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1840
+msgid "Purchase a license for use on a second installation"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1841
+msgid "Additional License &rarr;"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1864
+msgid ""
+"Thank you for installing UberMenu - WordPress Mega Menu Plugin, available "
+"exclusively from CodeCanyon!"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1865
+msgid ""
+"This license entitles you to use UberMenu on a single WordPress instance "
+"(and one private development server)."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1867
+msgid ""
+"To get started, take a look at the <a href=\"http://bit.ly/eR0cvC\" target="
+"\"_blank\">UberMenu Support Manual</a>, or watch the\n"
+"\t\t\t\t<a href=\"http://goo.gl/G8b3r\" target=\"_blank\">UberMenu Video "
+"Tutorials</a>.  If you'd like to keep up with UberMenu updates, you can\n"
+"\t\t\t\tfollow <a href=\"http://bit.ly/i1j6wb\" target=\"_blank"
+"\">@sevenspark</a> on Twitter or fan on <a href=\"http://www.facebook.com/"
+"sevensparklabs\">Facebook</a>."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1873
+msgid "I purchased UberMenu from CodeCanyon"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1874
+msgid "I need a license"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1894
+msgid "Thank you for your purchase!"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1901
+msgid "Settings"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1902
+msgid "Support Manual"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1926
+msgid "Welcome to UberMenu!"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1927
+msgid ""
+"Thank you for installing UberMenu - WordPress Mega Menu Plugin by "
+"SevenSpark!  Click \"Start Tour\" to view a quick introduction"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1938
+msgid "1. Create a Menu"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1939
+msgid ""
+"Start off by creating a menu using the WordPress 3 Menu System.  Each menu "
+"item has new options based on its level.  To create a mega menu drop down, "
+"be sure to check \"Activate Mega Menu\" in the UberMenu Options"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1947
+msgid "2. Set Theme Location"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1948
+msgid ""
+"Next, set your menu in the appropriate theme location.  If your theme does "
+"not support theme locations, you can use UberMenu Easy Integration instead."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1957
+msgid "3. Activate UberMenu Theme Locations"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1958
+msgid ""
+"Now, activate UberMenu on the appropriate theme location.  This tells "
+"UberMenu which menus it should affect, so you can have 1 UberMenu and "
+"multiple non-UberMenus."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1967
+msgid "4. Pick your Orientation"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1968
+msgid "Decide whether your menu should be vertically or horizontally aligned."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1977
+msgid "5. jQuery"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1978
+msgid ""
+"Decide whether you want your menu to be jQuery-Enhanced or pure CSS.  Pure "
+"CSS mega submenus will all be full-width unless customized with CSS."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1990
+msgid "Have a question?"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:1991
+msgid ""
+"You can always access the latest version of the support manual by clicking "
+"this link."
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:2012
+msgid "Shiny Black"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:2013
+msgid "Simple Green"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:2014
+msgid "Earthy"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:2015
+msgid "Silver Tabs (No Menu Bar)"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:2016
+msgid "Black and Silver"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:2017
+msgid "Blue and Silver"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:2018
+msgid "Red and Black"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:2019
+msgid "Burnt Orange"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:2020
+msgid "Clean White"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:2021
+msgid "Transparent Black"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:2022
+msgid "Transparent Black Hover"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:2026
+msgid "--- Legacy Skins: for Non-Responsive Sites Only: ---"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:2027
+msgid "Two Tone Silver & Black"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:2028
+msgid "Two Tone Black & Black"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:2029
+msgid "Two Tone Red & Black"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:2030
+msgid "Two Tone Blue & Black"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:2031
+msgid "Two Tone Green & Black"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:2032
+msgid "Two Tone Purple & Black"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:2033
+msgid "Two Tone Orange & Black"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:2034
+msgid "Two Tone Silver & Silver"
+msgstr ""
+
+#: ../standard/UberMenuStandard.class.php:2036
+msgid "Custom - (Legacy Use)"
+msgstr ""
+
+#: ../standard/demo/demo.php:34
+msgid "Demo Controls"
+msgstr ""
+
+#: ../standard/demo/demo.php:35
+msgid ""
+"Try out a few of the basic options to see what UberMenu can do.  There are "
+"many more available via the control panel!"
+msgstr ""
+
+#: ../standard/demo/demo.php:49
+msgid "Transition"
+msgstr ""
+
+#: ../standard/demo/demo.php:67
+msgid "Submenu appears after a brief delay to enhance user experience"
+msgstr ""
+
+#: ../standard/demo/demo.php:67
+msgid "Hover Intent"
+msgstr ""
+
+#: ../standard/demo/demo.php:68
+msgid "Hover"
+msgstr ""
+
+#: ../standard/demo/demo.php:69
+msgid "Click"
+msgstr ""
+
+#: ../standard/demo/demo.php:93
+msgid "Display"
+msgstr ""
+
+#: ../standard/demo/demo.php:97
+msgid "Top-Level Descriptions"
+msgstr ""
+
+#: ../standard/demo/demo.php:120
+msgid "Preview Menu"
+msgstr ""
+
+#: ../standard/tiptour/TipTour.class.php:45
+msgid "Restart Tour"
+msgstr ""

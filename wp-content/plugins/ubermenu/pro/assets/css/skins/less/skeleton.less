@@ -1,0 +1,146 @@
+/* UberMenu - Copyright 2011-2014, SevenSpark */
+
+//General
+.ubermenu-skin-@{skin_name}{
+	font-size:@font_size;
+	color:@color;
+}
+.ubermenu-skin-@{skin_name} .ubermenu-target{
+	color:@target_color;
+}
+.ubermenu-skin-@{skin_name} .ubermenu-target-description{
+	color:@description_color;
+}
+
+//Toggle
+.ubermenu-skin-@{skin_name}.ubermenu-responsive-toggle{
+	background:@toggle_background;
+	color:@toggle_color;
+	font-size:@font_size;
+	text-transform:@top_level_text_transform;
+	font-weight:@top_level_font_weight;
+}
+.ubermenu-skin-@{skin_name}.ubermenu-responsive-toggle:hover{
+	background:@toggle_background_hover;
+	color:@toggle_color_hover;
+}
+
+//Menu Bar
+.ubermenu-skin-@{skin_name}{
+	border:@menu_bar_border;
+	.bar_mix;
+}
+
+
+//Top Level Current Menu Items
+.ubermenu-skin-@{skin_name} .ubermenu-item-level-0.ubermenu-current-menu-item > .ubermenu-target,
+.ubermenu-skin-@{skin_name} .ubermenu-item-level-0.ubermenu-current-menu-parent > .ubermenu-target,
+.ubermenu-skin-@{skin_name} .ubermenu-item-level-0.ubermenu-current-menu-ancestor > .ubermenu-target{
+	color:@top_level_current_item_color;
+	background:@top_level_current_item_background;
+}
+
+//Highlights
+.ubermenu-skin-@{skin_name} .ubermenu-item.ubermenu-item-level-0 > .ubermenu-highlight{
+	color:@top_level_highlight_color;
+	background:@top_level_highlight_background;
+}
+
+//Vertical
+.ubermenu-skin-@{skin_name}.ubermenu-vertical .ubermenu-item-level-0 > .ubermenu-target{
+	.bar_mix;
+}
+
+//Top Level Targets
+.ubermenu-skin-@{skin_name} .ubermenu-item-level-0 > .ubermenu-target{
+	font-weight:@top_level_font_weight;
+	color:@top_level_color;
+	text-transform:@top_level_text_transform;
+	border-left:@top_level_divider;
+	.topglow;
+}
+.ubermenu-skin-@{skin_name} .ubermenu-item-level-0:first-child > .ubermenu-target{
+	box-shadow:none;
+}
+.ubermenu-skin-@{skin_name} .ubermenu-item-level-0:hover > .ubermenu-target,	//removed .ubermenu-notouch / only use hover on non-touch since iOS Safari has browser bugs
+.ubermenu-skin-@{skin_name} .ubermenu-item-level-0.ubermenu-active > .ubermenu-target{
+	background:@top_level_background_hover;
+	color:@top_level_color_hover;
+}
+
+
+//Top Level Stack
+.ubermenu-skin-@{skin_name} .ubermenu-item-level-0 > .ubermenu-submenu-type-stack > .ubermenu-item > .ubermenu-target{
+	color:@top_level_stack_color;
+}
+.ubermenu-skin-@{skin_name} .ubermenu-item-level-0 > .ubermenu-submenu-type-stack > .ubermenu-item > .ubermenu-target:hover{
+	color:@top_level_stack_color_hover;
+}
+
+
+//Dropdowns
+.ubermenu-skin-@{skin_name} .ubermenu-submenu.ubermenu-submenu-drop{
+	background:@dropdown_background;
+	border:@dropdown_border;
+}
+.ubermenu-skin-@{skin_name}.ubermenu-horizontal .ubermenu-item-level-0 > .ubermenu-submenu-drop{
+	border-top:@dropdown_border_top; //@menu_bar_border;
+}
+.ubermenu-skin-@{skin_name} .ubermenu-tab-content-panel{
+	background:@dropdown_background;
+}
+
+//Submenu Targets
+.ubermenu-skin-@{skin_name} .ubermenu-submenu,
+.ubermenu-skin-@{skin_name} .ubermenu-submenu .ubermenu-target{
+	color:@submenu_target_color;
+}
+.ubermenu-skin-@{skin_name} .ubermenu-submenu .ubermenu-highlight{
+	color:@highlight_color;
+}
+.ubermenu-skin-@{skin_name} .ubermenu-submenu .ubermenu-target:hover, //removed .ubermenu-notouch
+.ubermenu-skin-@{skin_name} .ubermenu-submenu .ubermenu-active > .ubermenu-target{
+	color:@submenu_target_color_hover;
+}
+.ubermenu-skin-@{skin_name} .ubermenu-submenu .ubermenu-target > .ubermenu-target-description{
+	color:@submenu_description_color;
+}
+.ubermenu-skin-@{skin_name} .ubermenu-submenu .ubermenu-active > .ubermenu-target > .ubermenu-target-description{
+	color:@submenu_description_color_hover;
+}
+
+
+
+//Headers
+.ubermenu-skin-@{skin_name} .ubermenu-submenu .ubermenu-item-header > .ubermenu-target{
+	font-weight:@header_font_weight;
+	color:@header_color;
+}
+.ubermenu-skin-@{skin_name} .ubermenu-submenu .ubermenu-item-header.ubermenu-has-submenu-stack > .ubermenu-target{
+	border-bottom:@header_border;
+}
+.ubermenu-skin-@{skin_name} .ubermenu-submenu .ubermenu-item-header > .ubermenu-target:hover{
+	color:@header_color_hover;
+}
+
+
+
+//Current Menu Items (Submenus)
+.ubermenu-skin-@{skin_name} .ubermenu-submenu .ubermenu-current-menu-item > .ubermenu-target{
+	color:@current_item_color;
+	background:@current_item_background;
+}
+
+
+//Tabs
+.ubermenu-nojs.ubermenu-skin-@{skin_name} .ubermenu-submenu .ubermenu-tabs .ubermenu-tab:hover > .ubermenu-target,
+.ubermenu-skin-@{skin_name} .ubermenu-submenu .ubermenu-tab.ubermenu-active > .ubermenu-target{
+	background:@tab_background_hover;
+	color:@tab_color_hover;
+}
+.ubermenu-skin-@{skin_name} .ubermenu-tabs-group,
+.ubermenu-skin-@{skin_name} .ubermenu-tab > .ubermenu-target,
+.ubermenu-skin-@{skin_name} .ubermenu-tab-content-panel{
+	border-color: @tab_border_color;
+}
+

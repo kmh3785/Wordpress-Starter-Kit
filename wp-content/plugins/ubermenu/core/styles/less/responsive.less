@@ -1,0 +1,252 @@
+/* ========================================== */
+/*	RESPONSIVE STYLES 						  */
+/* ========================================== */
+
+/* Toggle */
+#megaMenu #megaMenuToggle{
+	display:none;
+	padding: 12px 15px;
+	cursor:pointer;
+	font-size:10px;
+	text-transform:uppercase;
+	text-align: left;
+}
+#megaMenu #megaMenuToggle .megaMenuToggle-icon{
+	display:inline-block;
+	background: #999;
+	background: rgba( 230, 230, 230, .7 );
+	height:2px;
+	width:16px;
+	position:relative;
+	float:right;
+	margin-top:10px;
+	text-align:left;
+}
+#megaMenu #megaMenuToggle .megaMenuToggle-icon:before{
+	content:'';
+	position:absolute;
+	background: #999;
+	background: rgba( 230, 230, 230, .8 );	
+	height:2px;
+	width:16px;
+	top:-4px;
+}
+#megaMenu #megaMenuToggle .megaMenuToggle-icon:after{
+	content:'';
+	position:absolute;
+	background: #999;
+	background: rgba( 230, 230, 230, .9 );
+	height:2px;
+	width:16px;
+	top:-8px;
+}
+
+/*  #Tablet (Landscape) - 960px
+================================================== */
+@media only screen and (max-width: @verticalMaxBreakpoint){
+
+	/* Vertical */
+	#megaMenu.megaResponsive.megaMenuVertical ul.megaMenu li.menu-item.ss-nav-menu-item-depth-0 ul.sub-menu-1{
+		max-width:767px;
+		left:0px;
+		top:auto !important;
+	}
+	#megaMenu.megaResponsive.megaMenuVertical ul.megaMenu li.menu-item.ss-nav-menu-reg.ss-nav-menu-item-depth-0 ul.sub-menu-1 ul.sub-menu{
+		left:0;
+		top:100%;
+	}
+
+}
+
+/*  #Mobile through Tablet (Portrait) - 767px
+================================================== */
+
+@media only screen and (max-width: @collapseBreakpoint) {
+
+	#megaMenu.megaResponsive ul.megaMenu > li.menu-item{
+		width:100%;
+	}
+	
+	#megaMenu.megaResponsive ul.megaMenu li.menu-item .ss-colgroup > .ss-col,
+	#megaMenu.megaResponsive ul.megaMenu li.menu-item.ss-nav-menu-mega ul.sub-menu.sub-menu-1 > li.menu-item,
+	#megaMenu.megaResponsive ul.megaMenu li.menu-item.ss-nav-menu-mega ul.sub-menu.sub-menu-1 > li.menu-item.ss-sidebar > .wpmega-nonlink > ul > li.widget{
+		
+		width: 80%;
+		padding-left:10%;
+		padding-right:10%;
+		max-width:none;
+		
+	}
+	
+	#megaMenu.megaResponsive ul.megaMenu li.menu-item.ss-nav-menu-mega ul.sub-menu.sub-menu-1 > li.menu-item.ss-nav-menu-item-depth-1.fullWidthRow, 
+	#megaMenu.megaResponsive ul.megaMenu li.menu-item.ss-nav-menu-mega ul.sub-menu.sub-menu-1 > li.menu-item.ss-nav-menu-item-depth-1.ss-sidebar{
+		padding-left:0;
+		padding-right:0;
+		width: 100%;
+	}
+	
+	#megaMenu.megaResponsive ul.megaMenu li.menu-item .ss-colgroup > .ss-col{
+		margin-bottom:1em;
+	}
+
+	#megaMenu ul.megaMenu > li.menu-item > .wpmega-nonlink > form#searchform.ubersearch-v2 .ubersearch input[type="text"] {
+		width:100%;
+		margin-bottom:5px;
+	}
+	
+	/* Remove box shadow and border on menu items, since we're probably wrapping at this poing */
+	#megaMenu.megaResponsive.megaMenuHorizontal ul.megaMenu > li.menu-item > a, 
+	#megaMenu.megaResponsive.megaMenuHorizontal ul.megaMenu > li.menu-item > span.um-anchoremulator,
+	#megaMenu.megaResponsive ul.megaMenu > li.menu-item:hover > a, 
+	#megaMenu.megaResponsive ul.megaMenu > li.menu-item > a:hover, 
+	#megaMenu.megaResponsive ul.megaMenu > li.menu-item.megaHover > a{
+		box-shadow:none;
+		border-left:none;
+	}
+
+	/* No need to float right */
+	#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-mega-floatRight{
+		float:left;
+	}
+
+
+	/* Vertical */
+	#megaMenu.megaResponsive.megaMenuVertical ul.megaMenu > li.menu-item{
+		width:100%;
+	}
+	#megaMenu.megaResponsive.megaMenuVertical ul.megaMenu li.menu-item.ss-nav-menu-mega.ss-nav-menu-item-depth-0 ul.sub-menu-1{
+		max-width:420px;
+	}
+
+	/* Flyout Menus */
+	#megaMenu.megaResponsive ul.megaMenu li.menu-item.ss-nav-menu-reg{
+		position:static;
+	}
+	#megaMenu.megaResponsive ul.megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu,
+	#megaMenu.megaResponsive ul.megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu li.menu-item ul.sub-menu{		
+		left:-1px;
+		width:100%;
+		box-shadow:none !important;
+		border-top-left-radius: 0 !important;
+		border-top-right-radius: 0 !important;
+	}
+	#megaMenu.megaResponsive ul.megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu li.menu-item ul.sub-menu{	
+		top:100%;
+		
+	}
+	#megaMenu.megaResponsive ul.megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu > li.menu-item > a:after,
+	#megaMenu.megaResponsive ul.megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu > li.menu-item > span.um-anchoremulator:after{
+		border-color: #ddd transparent transparent transparent;
+		border-width: 3px 3px 0px;
+		border-style: solid dashed dashed;
+		right:10px;
+		padding-top:0;
+    	padding-right:2px;
+    	margin-top:-3px;
+	}
+
+	/* Mega Menus */
+	#megaMenu.megaResponsive ul.megaMenu li.menu-item.ss-nav-menu-mega ul.sub-menu.sub-menu-1{
+		left:-1px !important;
+		width:100%;
+		box-sizing: content-box;
+		/*box-sizing:border-box;*/
+		box-shadow:none !important;
+		border-top-left-radius: 0;
+		border-top-right-radius: 0;
+	}
+
+	#megaMenu #megaMenuToggle{
+		display:block;
+	}
+	#megaMenu.megaResponsiveToggle ul.megaMenu{
+		display:none;
+	}
+
+	/* Vertical */
+	#megaMenu.megaMenuVertical.megaFullWidth {
+		width: 100%;
+	}
+
+	/* Make centered Items align properly when stacked */
+	#megaMenu.megaCenterMenuItems ul.megaMenu > li.menu-item{
+		float:left;
+	}
+	
+}
+
+/* #Mobile (Landscape) - 480px - 767px
+================================================== */
+
+/* Note: Design for a width of 480px */
+
+@media only screen and (min-width: @collapseHalfWidthMinBreakpoint) and (max-width: @collapseBreakpoint) {
+	
+	#megaMenu.megaResponsive ul.megaMenu > li.menu-item{
+		width:50%;
+	}
+	
+	#megaMenu.megaResponsive ul.megaMenu li.menu-item.ss-nav-menu-mega ul.sub-menu.sub-menu-1 > li.menu-item{
+		width: 38%;
+		padding-left:6%;
+		padding-right:6%;
+		max-width:none;
+	}
+	
+	#megaMenu.megaResponsive ul.megaMenu li.menu-item.ss-nav-menu-mega ul.sub-menu.sub-menu-1 > li.menu-item.ss-sidebar > .wpmega-nonlink > ul > li.widget{
+		width: 88%;
+		padding-left:6%;
+		padding-right:6%;
+		max-width:none;
+	}
+	
+}
+
+@media only screen and (max-width: 479px){
+	/* Vertical */
+	#megaMenu.megaResponsive.megaMenuVertical ul.megaMenu li.menu-item.ss-nav-menu-mega.ss-nav-menu-item-depth-0 ul.sub-menu-1{
+		max-width:300px;
+	}
+
+}
+
+@media (min-width: @expandBreakpoint) {
+	#megaMenu.megaResponsiveToggle ul.megaMenu{
+ 		display:block !important;
+ 	}
+ 	#megaMenu ul.megaMenu a span.uber-close,
+	#megaMenu ul.megaMenu span.um-anchoremulator span.uber-close{
+		right:-12px !important;
+		z-index:700;
+	}
+}
+
+/* Close Button */
+#megaMenu ul.megaMenu li.menu-item a span.uber-close,
+#megaMenu ul.megaMenu li.menu-item span.um-anchoremulator span.uber-close{
+	position:absolute;
+	box-sizing:border-box;
+	text-decoration: none;
+
+	top:0;
+	right:0;
+	height:100%;
+	width:30px;
+	text-align:center;
+	line-height:40px;
+	background:#999;
+	background:rgba( 0, 0, 0, .9 );
+	z-index:700;
+
+	font-size:20px;
+	font-weight:bold;
+	color:#f5f5f5;
+
+	display:none;
+}
+#megaMenu ul.megaMenu a:hover span.uber-close,
+#megaMenu ul.megaMenu span.um-anchoremulator:hover span.uber-close,
+#megaMenu ul.megaMenu li.menu-item.megaHover a span.uber-close,
+#megaMenu ul.megaMenu li.menu-item.megaHover span.um-anchoremulator span.uber-close{
+	display:block;
+}

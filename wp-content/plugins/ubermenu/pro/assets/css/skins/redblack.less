@@ -1,0 +1,76 @@
+/* Shiny Black Skin v3.0 */
+
+//defaults
+@import "less/defaults.less";
+
+//special
+@skin_name:red-black;
+
+@color:#ccc;
+@target_color:#ddd;
+@description_color: #ccc;
+
+@toggle_background:#B8000C;
+@toggle_color:#eee;
+@toggle_background_hover:#99000A;
+@toggle_color_hover:#fff;
+
+@menu_bar_background: #B8000C;
+@menu_bar_background_2: #99000A;
+@menu_bar_border: 1px solid #222; //#610006;
+
+@top_level_font_weight: bold;
+@top_level_color: #eee;
+@top_level_color_hover: #fff;
+@top_level_background_hover: #111;
+@top_level_text_transform:uppercase;
+@top_level_current_item_color: #fff;
+@top_level_divider: @menu_bar_border;
+
+@top_level_highlight_color: #fff;
+@top_level_highlight_background: #DD2E2E;
+
+@top_level_stack_color: @top_level_color;
+@top_level_stack_color_hover: @top_level_color_hover;
+
+//Current Items
+@top_level_current_item_color: #fff;
+@current_item_color: #fff;
+
+@dropdown_background: #000;
+@dropdown_border: 1px solid #111;
+
+@header_color: #eee;
+@header_color_hover: #fff;
+@header_border:1px solid #333;
+
+@submenu_target_color: #d9d9d9;
+@submenu_target_color_hover: #fff;
+
+//Tabs
+@tab_background_hover: #333;
+@tab_color_hover: #eee;
+@tab_border_color: #000;
+
+
+//mixins
+.bar_mix(){
+	//background:@menu_bar_background;
+	.gradient( @menu_bar_background , @menu_bar_background_2 );
+	.inner-glow (1px,1px,0,0,@top_level_glow_opacity);
+}
+.topglow(){
+	.inner-glow (1px,0,0,0,@top_level_glow_opacity);
+}
+
+//skeleton
+@import "less/skeleton.less";
+
+
+//overrides
+.ubermenu-skin-@{skin_name} .ubermenu-submenu-drop{
+	border-bottom-width:3px;
+}
+.bar_with_border(@skin_name);
+.top_border_spacer(@skin_name , @top_level_background_hover); //because menu bar has border
+//.submenu_border_spacer;	

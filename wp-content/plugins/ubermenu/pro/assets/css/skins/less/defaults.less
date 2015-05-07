@@ -1,0 +1,182 @@
+@skin_name: UNK;
+@_c4: #000;
+
+//General
+@font_size: 12px;
+@color:#888;
+@target_color: #555;
+@description_color: #aaa;
+@highlight_color: #4d90fe;
+
+//Toggle
+@toggle_background:#222;
+@toggle_color:#eee;
+@toggle_background_hover:#111;
+@toggle_color_hover:#fff;
+
+//Menu Bar
+@menu_bar_background: #fff;
+@menu_bar_border: none;
+
+//Top Level
+@top_level_text_transform:none;
+@top_level_font_weight: normal;
+@top_level_color: #111;
+@top_level_color_hover: #000;
+@top_level_background_hover: #eee;
+@top_level_highlight_color: #4d90fe;
+@top_level_highlight_background:transparent;
+@top_level_glow_opacity:.1;
+@top_level_divider:none;
+
+//Top Level Stack
+@top_level_stack_color: @top_level_color;
+@top_level_stack_color_hover: @top_level_color_hover;
+
+//Current Items
+@top_level_current_item_color: #222;
+@top_level_current_item_background: transparent;
+@current_item_color: #222;
+@current_item_background: transparent;
+
+
+//Headers 
+@header_font_weight: bold;
+@header_border: 1px solid #e9e9e9;
+@header_color: @target_color;
+@header_color_hover: #222;
+
+
+//Dropdown Submenus
+@dropdown_background: #fff;
+@dropdown_border: 1px solid #e9e9e9;
+@dropdown_border_top:none;
+
+
+
+//Submenu Items
+@submenu_target_color: #555;
+@submenu_target_color_hover: #111;
+@submenu_description_color: #aaa;
+@submenu_description_color_hover: #666;
+
+
+//Tabs
+@tab_background_hover: #eee;
+@tab_color_hover: #111;
+@tab_border_color: #eee;
+
+
+.topglow{}
+
+//Mixins
+.text-shadow (@string: 0 1px 3px rgba(0, 0, 0, 0.25)) {
+  text-shadow: @string;
+}
+.gradient (@startColor: #eee, @endColor: white) {
+  background-color: @startColor;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,@startColor), color-stop(50%,@startColor), color-stop(50%,@endColor));
+  background: -webkit-linear-gradient(top, @startColor, @endColor);
+  background: -moz-linear-gradient(top, @startColor, @endColor);
+  background: -ms-linear-gradient(top, @startColor, @endColor);
+  background: -o-linear-gradient(top, @startColor, @endColor);
+}
+.gradient_hard (@startColor: #eee, @endColor: white) {
+  background-color: @startColor;
+  background: -webkit-gradient(linear, left top, left bottom, from(@startColor), to(@endColor));
+  background: -webkit-linear-gradient(top, @startColor 50%, @startColor 50%, @endColor 50%);
+  background: -moz-linear-gradient(top, @startColor 50%, @startColor 50%, @endColor 50%);
+  background: -ms-linear-gradient(top, @startColor 50%, @startColor 50%, @endColor 50%);
+  background: -o-linear-gradient(top, @startColor 50%, @startColor 50%, @endColor 50%);
+}
+.inner-glow (@x: 0, @y: 1px, @blur: 2px, @spread: 0, @alpha: 0.25) {
+  -webkit-box-shadow: inset @x @y @blur @spread rgba(255, 255, 255, @alpha);
+  -moz-box-shadow:    inset @x @y @blur @spread rgba(255, 255, 255, @alpha);
+  box-shadow:         inset @x @y @blur @spread rgba(255, 255, 255, @alpha);
+}
+
+.top_border_spacer( @_skin_name , @_border_color:transparent ){
+	.ubermenu-skin-@{_skin_name}.ubermenu-horizontal .ubermenu-item-level-0.ubermenu-active:after{
+		content:'';
+		border-bottom:1px solid @_border_color;
+		width:100%;
+    width:calc( 100% + 1px );
+		margin-bottom:-1px;
+    //position:absolute;
+    //left:0;
+	}
+  .ubermenu-skin-@{_skin_name}.ubermenu-horizontal .ubermenu-item-level-0.ubermenu-active > .ubermenu-submenu-drop,
+	.ubermenu-skin-@{_skin_name}.ubermenu-horizontal:not(.ubermenu-transition-shift) .ubermenu-item-level-0 > .ubermenu-submenu-drop{
+		margin-top:1px;
+	}
+}
+
+.vertical_border_overlay( @_skin_name , @_border:1px solid black ){
+  .ubermenu-skin-@{_skin_name}.ubermenu-vertical:before{
+    content:'';
+    position:absolute;
+    top:0;
+    right:-1px;
+    height:100%;
+    border-right:@_border;
+    z-index:100;
+    width:0;
+  }
+}
+
+.bar_with_border( @_skin_name ){
+  .ubermenu-skin-@{_skin_name} .ubermenu-item .ubermenu-submenu-drop{
+    -webkit-box-sizing: content-box; /* Takes into account borders */
+    -moz-box-sizing: content-box; /* Takes into account borders */
+    -o-box-sizing: content-box; /* Takes into account borders */
+    box-sizing: content-box; /* Takes into account borders */
+  }
+  /* Drop Sub - Left Edge of Menu Bar */
+  .ubermenu-skin-@{_skin_name}.ubermenu-horizontal .ubermenu-submenu-drop.ubermenu-submenu-align-left_edge_bar,
+  .ubermenu-skin-@{_skin_name}.ubermenu-horizontal .ubermenu-submenu-drop.ubermenu-submenu-align-full_width{
+    left:-1px; /* for borders */
+  }
+  /* Drop Sub - Right Edge of Menu Bar */
+  .ubermenu-skin-@{_skin_name}.ubermenu-horizontal .ubermenu-submenu-drop.ubermenu-submenu-align-right_edge_bar{
+    right:-1px; /* for borders */
+  }
+  .ubermenu-skin-@{_skin_name}.ubermenu-horizontal .ubermenu-submenu-drop.ubermenu-submenu-align-full_width.ubermenu-submenu-padded{
+    width: calc(100% + 3px); /* because we use box-sizing:border-box */
+  }
+
+  .ubermenu-skin-@{_skin_name}.ubermenu-vertical .ubermenu-item-level-0 > .ubermenu-submenu-drop,
+  //.ubermenu-skin-@{_skin_name}.ubermenu-vertical .ubermenu-submenu .ubermenu-item.ubermenu-active > .ubermenu-submenu-drop,
+  .ubermenu-skin-@{_skin_name}.ubermenu-nojs.ubermenu-vertical .ubermenu-item-level-0:hover > .ubermenu-submenu-drop, 
+  .ubermenu-skin-@{_skin_name}.ubermenu-vertical .ubermenu-item-level-0.ubermenu-active > .ubermenu-submenu-drop,
+  .ubermenu-skin-@{_skin_name}.ubermenu-vertical .ubermenu-active .ubermenu-submenu.ubermenu-submenu-type-flyout .ubermenu-submenu-type-mega{
+    top:-1px;
+  }
+
+  // @media screen and (max-width:959px){
+  //   .ubermenu-skin-@{_skin_name}.ubermenu-responsive .ubermenu-nav .ubermenu-item .ubermenu-submenu.ubermenu-submenu-drop{
+  //     left: -1px !important; /* For borders */
+  //   }
+  // }
+}
+.bar_without_border( @_skin_name ){
+  .ubermenu-skin-@{_skin_name}.ubermenu-transition-fade .ubermenu-item .ubermenu-submenu-drop{
+    margin-top:0;
+  }
+}
+
+// .submenu_border_spacer{
+// 	.ubermenu .ubermenu-item-level-0.ubermenu-active > .ubermenu-submenu-drop{
+// 	  margin-top:1px;
+// 	}
+// 	.ubermenu .ubermenu-item-level-0 > .ubermenu-submenu-drop:before{
+// 	  content:'';
+// 	  position:absolute;
+// 	  width:100%;
+// 	  height:1px;
+// 	  background:transparent;
+// 	  top:-1px;
+// 	  left:0;
+// 	  /*border-top:1px solid transparent;*/
+// 	  display:block;
+// 	}
+// }

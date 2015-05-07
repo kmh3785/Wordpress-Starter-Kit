@@ -1,0 +1,20 @@
+/* ========================================== */
+/*	CLEARFIX STYLES 						  */
+/* ========================================== */
+
+/* Clearfix */
+.uberClearfix:before,
+.uberClearfix:after,
+#megaMenu.megaClear ul.megaMenu:before,
+#megaMenu.megaClear ul.megaMenu:after {
+    content:"";
+    display:table;
+}
+.uberClearfix:after,
+#megaMenu.megaClear ul.megaMenu:after {
+    clear:both;
+}
+.uberClearfix,
+#megaMenu.megaClear ul.megaMenu {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}

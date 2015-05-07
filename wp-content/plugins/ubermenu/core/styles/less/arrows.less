@@ -1,0 +1,61 @@
+/* ========================================== */
+/*	ARROW INDICATORS STYLES					  */
+/* ========================================== */
+
+/* Display links as block */
+#megaMenu ul.megaMenu li.menu-item.mega-with-sub > a,
+#megaMenu ul.megaMenu li.menu-item.mega-with-sub > span.um-anchoremulator,
+#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-mega > a,
+#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-mega > span.um-anchoremulator{
+	display:block;
+}
+
+/* Pad the right edge to make room for the arrow */
+#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu li.menu-item.megaReg-with-sub > a,
+#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-reg ul.sub-menu li.menu-item.megaReg-with-sub > span.um-anchoremulator,
+#megaMenu ul.megaMenu li.menu-item.mega-with-sub > a,
+#megaMenu ul.megaMenu li.menu-item.mega-with-sub > span.um-anchoremulator,
+#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-mega > a,
+#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-mega > span.um-anchoremulator{
+	padding-right:20px;
+}
+
+/* Add the arrows as pseudo elements */
+#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-reg li.menu-item.megaReg-with-sub > a:after,
+#megaMenu ul.megaMenu li.menu-item.mega-with-sub > a:after,
+#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-mega > a:after,
+#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-reg li.menu-item.megaReg-with-sub > span.um-anchoremulator:after,
+#megaMenu ul.megaMenu li.menu-item.mega-with-sub > span.um-anchoremulator:after,
+#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-mega > span.um-anchoremulator:after{
+	content: '';
+	position: absolute;
+	top: 50%;
+	right:8px;
+	margin-top:-1px;
+	
+	display:inline-block;
+	background:transparent;
+	
+	border-style: solid dashed dashed;
+	border-color: transparent;
+	border-top-color: #999;
+	font-size: 0;
+	border-width: 3px 3px 0;
+	padding-top: 1px;
+	
+}
+
+/* For second+ level flyout menus, point the arrow right instead of down */
+#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-reg li.menu-item.megaReg-with-sub > a:after,
+#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-reg li.menu-item.megaReg-with-sub > span.um-anchoremulator:after{
+	width: 0;
+	height: 0;
+	border-top: 3px solid transparent;
+	border-bottom: 3px solid transparent;
+
+	border-left: 3px solid #999;
+	padding-top:0;
+	padding-right:2px;
+	margin-top:-2px;
+	right:3px;
+}
