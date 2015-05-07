@@ -74,7 +74,7 @@
  
 // Default task
   gulp.task('build', ['clean'], function() {
-      gulp.start('replace', 'styles', 'scripts', 'images');
+      gulp.start('replace', 'sass', 'scripts', 'images');
   });
  
 // Watch

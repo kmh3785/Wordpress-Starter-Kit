@@ -31,5 +31,8 @@
     "url": "https://github.com/kmh3785/Wordpress-Starter-Kit/issues"
   },
   "homepage": "https://github.com/kmh3785/Wordpress-Starter-Kit",
-
+   "scripts": {
+    "preinstall": "bower install && cd src && mkdir img && cd img && git clone https://github.com/kmh3785/Overlay-Patterns.git",
+    "postinstall": "gulp build"
+  }
 }
