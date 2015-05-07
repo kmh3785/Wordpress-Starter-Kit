@@ -12,8 +12,8 @@ This is not a starter theme, but rather a framework to quickly build a theme off
 - A clean Wordpress core separated from the wp-content directory
 - A fresh wp-config.php file
 - Commonly used plugins
--- Gravity Forms
--- UberMenu
+ - Gravity Forms
+ - UberMenu
 
 ### Build tools
 #### Bower
@@ -49,7 +49,7 @@ Note: If an error is thrown, run "git rm -r wordpress" then run "npm install" ag
 ### Commands
 
 #### gulp sass
-Compine and minify style.scss
+Compile and minify style.scss
 
 #### gulp scripts
 Minify all scripts in src/js, compile into a single scripts.js file, and minify
