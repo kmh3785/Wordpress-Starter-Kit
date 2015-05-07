@@ -1,0 +1,22 @@
+{
+  "name": "Wordpress Starter Kit",
+  "version": "0.0.0",
+  "homepage": "https://github.com/kmh3785/Wordpress-Starter-Kit",
+  "authors": [
+    "Kevin Hughes <kmh3785@gmail.com>"
+  ],
+  "description": "Starter kit for Wordpress development",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bourbon": "~4.2.2",
+    "neat": "~1.7.2"
+  }
+}

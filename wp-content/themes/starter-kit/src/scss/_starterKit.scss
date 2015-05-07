@@ -1,0 +1,168 @@
+// Resets
+		html, body {
+		  margin: 0px;
+		}
+
+	// Mixins
+		// Spacing
+		  $spacingXsm: 10px;
+		  $spacingSm: 25px;
+		  $spacingMed: 50px;
+		  $spacingLg: 100px;
+		  $spacingXl: 150px;
+
+		  .spacing {
+		    &.top {
+		      &.Xsm {
+		        margin-top: $spacingXsm;
+		      }
+		      &.Sm {
+		        margin-top: $spacingSm;
+		      }
+		      &.Med {
+		        margin-top: $spacingMed;
+		      }
+		      &.Lg {
+		        margin-top: $spacingLg;
+		      }
+		      &.Xl {
+		        margin-top: $spacingXl;
+		      }
+		    }
+		    &.bottom {
+		      &.Xsm {
+		        margin-bottom: $spacingXsm;
+		      }
+		      &.Sm {
+		        margin-bottom: $spacingSm;
+		      }
+		      &.Med {
+		        margin-bottom: $spacingMed;
+		      }
+		      &.Lg {
+		        margin-bottom: $spacingLg;
+		      }
+		      &.Xl {
+		        margin-bottom: $spacingXl;
+		      }
+		    }
+		  }
+
+		  @mixin spacingSm {
+		    @extend .spacing; 
+		    @extend .top; 
+		    @extend .bottom; 
+		    @extend .Sm; 
+		  }
+		  @mixin spacingMed {
+		    @extend .spacing; 
+		    @extend .top; 
+		    @extend .bottom; 
+		    @extend .Med; 
+		  } 
+		  @mixin spacingXl {
+		    @extend .spacing; 
+		    @extend .top; 
+		    @extend .bottom; 
+		    @extend .Xl; 
+		  }
+
+
+
+		  .padding {
+		    &.top {
+		      &.Xsm {
+		        padding-top: $spacingXsm;
+		      }
+		      &.Sm {
+		        padding-top: $spacingSm;
+		      }
+		      &.Med {
+		        padding-top: $spacingMed;
+		      }
+		      &.Lg {
+		        padding-top: $spacingLg;
+		      }
+		      &.Xl {
+		        padding-top: $spacingXl;
+		      }
+		    }
+		    &.bottom {
+		      &.Xsm {
+		        padding-bottom: $spacingXsm;
+		      }
+		      &.Sm {
+		        padding-bottom: $spacingSm;
+		      }
+		      &.Med {
+		        padding-bottom: $spacingMed;
+		      }
+		      &.Lg {
+		        padding-bottom: $spacingLg;
+		      }
+		      &.Xl {
+		        padding-bottom: $spacingXl;
+		      }
+		    }
+		  }
+
+		  @mixin paddingSm {
+		    @extend .padding; 
+		    @extend .top; 
+		    @extend .bottom; 
+		    @extend .Sm; 
+		  }
+		  @mixin paddingMed {
+		    @extend .padding; 
+		    @extend .top; 
+		    @extend .bottom; 
+		    @extend .Med; 
+		  } 
+		  @mixin paddingXl {
+		    @extend .padding; 
+		    @extend .top; 
+		    @extend .bottom; 
+		    @extend .Xl; 
+		  }
+
+		  @mixin sidePadding {
+			padding: {
+				left: $spacingSm;
+				right: $spacingSm;
+			}
+		}
+		// Centering
+			@mixin vertical-align {
+			  position: relative;
+			  top: 50%;
+			  -webkit-transform: translateY(-50%);
+			  -ms-transform: translateY(-50%);
+			  transform: translateY(-50%);
+			}
+			@mixin vertical-align-fix {
+				top: -50%;
+				-webkit-transform: translateY(50%);
+				-ms-transform: translateY(50%);
+				transform: translateY(50%);
+			}
+
+			@mixin no-vertical-align {
+				position: relative;
+				top: 0%;
+				-webkit-transform: translateY(0%);
+				-ms-transform: translateY(0%);
+				transform: translateY(0%);
+				top: 0%;
+				-webkit-transform: translateY(0%);
+				-ms-transform: translateY(0%);
+				transform: translateY(0%);
+			}
+			@mixin centerDiv {
+		    	margin: 0 auto !important;
+			}
+
+
+
+	// Breakpoints
+		$mobile: new-breakpoint(max-width 480px 4);
+		$smallDesktop: new-breakpoint(max-width 960px 12);

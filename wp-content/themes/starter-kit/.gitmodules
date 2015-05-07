@@ -1,0 +1,3 @@
+[submodule "src/img/Overlay-Patterns"]
+	path = src/img/Overlay-Patterns
+	url = https://github.com/kmh3785/Overlay-Patterns.git

@@ -1,0 +1,15 @@
+// Bourbon Includes
+	@import '../../bower_components/bourbon/app/assets/stylesheets/bourbon';
+	@import '../../bower_components/neat/app/assets/stylesheets/neat';
+	@import 'base/base';
+	@import '../../bower_components/normalize.css/normalize.css';
+	@import 'starterKit';
+
+
+// Custom Styles
+  	// Color
+	    $white: #ffffff;
+	    $black: #000000;
+	    $lightGrey: lighten($black, 90%);
+	    $medGrey: lighten($black, 50%);
+	    $darkGrey: lighten($black, 25%);
