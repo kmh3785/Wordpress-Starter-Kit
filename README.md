@@ -37,6 +37,11 @@ This is not a starter theme, but rather a framework to quickly build a theme off
 - ruby-sass
 - uglify
 
+## installation
+- Clone or download repo
+- cd into directory
+- npm install
+
 ## How to use it
 - A basic empty Wordpress theme is created in wp-content/themes/starter-kit
 - Do all development in /starter-kit
