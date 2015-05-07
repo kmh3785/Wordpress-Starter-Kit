@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/kmh3785/Wordpress-Starter-Kit",
   "scripts": {
-    "preinstall": "git rm -r --cached wordpress && git submodule add https://github.com/WordPress/WordPress.git wordpress && cd wordpress && git checkout 4.2.2 && cd ../wp-content/themes/starter-kit && npm install"
+    "preinstall": "git submodule add https://github.com/WordPress/WordPress.git wordpress && cd wordpress && git checkout 4.2.2 && cd ../wp-content/themes/starter-kit && npm install"
   }
 }
