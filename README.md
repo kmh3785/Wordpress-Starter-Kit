@@ -19,7 +19,6 @@ This is not a starter theme, but rather a framework to quickly build a theme off
 #### Bower
 - Bourbon
 - Neat
-- normalize.css
 
 #### Gulp
 - del
@@ -41,6 +40,7 @@ This is not a starter theme, but rather a framework to quickly build a theme off
 - Clone or download repo
 - cd into directory
 - npm install
+Note: If an error is thrown, run "git rm -r wordpress" then run "npm install" again 
 
 ## How to use it
 - A basic empty Wordpress theme is created in wp-content/themes/starter-kit
