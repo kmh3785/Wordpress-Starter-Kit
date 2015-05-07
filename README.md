@@ -1,4 +1,4 @@
-# Wordpress-Starter-Kit
+# Wordpress Starter Kit
 
 A starter kit for Wordpress development built with Bower, Bourbon, Neat & Gulp.
 
