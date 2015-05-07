@@ -37,7 +37,7 @@ This is not a starter theme, but rather a framework to quickly build a theme off
 - ruby-sass
 - uglify
 
-## installation
+## Installation
 - Clone or download repo
 - cd into directory
 - npm install
