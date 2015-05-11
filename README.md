@@ -40,7 +40,13 @@ This is not a starter theme, but rather a framework to quickly build a theme off
 - Clone or download repo
 - cd into directory
 - npm install
-
+ - npm install will in sequential order:
+  - Download Wordpress 4.2.2
+  - cd ../wp-content/themes/starter-kit && npm install
+   - Install Bower dependencies
+   - Install Node dependencies
+   - Create a clean build
+   
 ## How to use it
 - A basic empty Wordpress theme is created in wp-content/themes/starter-kit
 - Do all theme development in starter-kit/src
