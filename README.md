@@ -40,11 +40,10 @@ This is not a starter theme, but rather a framework to quickly build a theme off
 - Clone or download repo
 - cd into directory
 - npm install
-Note: If an error is thrown, run "git rm -r wordpress" then run "npm install" again 
 
 ## How to use it
 - A basic empty Wordpress theme is created in wp-content/themes/starter-kit
-- Do all development in /starter-kit
+- Do all theme development in starter-kit/src
 
 ### Commands
 
@@ -63,7 +62,7 @@ Minify all HTML/PHP
 - To use <?php body_class(); ?>, instead use data-bodyClass and it will be replaced once compiled
 
 #### gulp build
-Delete all CSS, JS, and images and do a fresh build
+Delete all CSS, JS, and images and create a fresh build
 
 #### gulp watch
 Watch all files in src, and compile on change
