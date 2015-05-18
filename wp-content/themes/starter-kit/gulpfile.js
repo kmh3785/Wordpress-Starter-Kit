@@ -18,7 +18,8 @@
       notify = require('gulp-notify'),
       cache = require('gulp-cache'),
       livereload = require('gulp-livereload'),
-      del = require('del');
+      del = require('del'),
+      require('gulp-modernizr');
 ;
 
 // Styles
@@ -35,6 +36,7 @@
 // Scripts
   gulp.task('scripts', function() {
     return gulp.src('src/js/**/*.js')
+      .pipe(modernizr())
       .pipe(jshint('.jshintrc'))
       .pipe(jshint.reporter('default'))
       .pipe(concat('scripts.js'))
