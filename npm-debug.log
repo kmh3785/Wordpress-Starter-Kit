@@ -1,0 +1,40 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.9.1
+3 info using node@v0.12.3
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose readDependencies loading dependencies from C:\xampp\htdocs\Wordpress-Starter-Kit\package.json
+6 verbose install where, deps [ 'C:\\xampp\\htdocs\\Wordpress-Starter-Kit', [] ]
+7 verbose install where, peers [ 'C:\\xampp\\htdocs\\Wordpress-Starter-Kit', [] ]
+8 verbose installManyTop reading for lifecycle C:\xampp\htdocs\Wordpress-Starter-Kit\package.json
+9 info preinstall Wordpress-Starter-Kit@1.0.0
+10 verbose unsafe-perm in lifecycle true
+11 info Wordpress-Starter-Kit@1.0.0 Failed to exec preinstall script
+12 verbose stack Error: Wordpress-Starter-Kit@1.0.0 preinstall: `git submodule add https://github.com/WordPress/WordPress.git wordpress && cd wordpress && git checkout 4.2.2 && cd ../wp-content/themes/starter-kit && npm install`
+12 verbose stack Exit status 1
+12 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:213:16)
+12 verbose stack     at EventEmitter.emit (events.js:110:17)
+12 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+12 verbose stack     at ChildProcess.emit (events.js:110:17)
+12 verbose stack     at maybeClose (child_process.js:1015:16)
+12 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+13 verbose pkgid Wordpress-Starter-Kit@1.0.0
+14 verbose cwd C:\xampp\htdocs\Wordpress-Starter-Kit
+15 error Windows_NT 6.1.7601
+16 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+17 error node v0.12.3
+18 error npm  v2.9.1
+19 error code ELIFECYCLE
+20 error Wordpress-Starter-Kit@1.0.0 preinstall: `git submodule add https://github.com/WordPress/WordPress.git wordpress && cd wordpress && git checkout 4.2.2 && cd ../wp-content/themes/starter-kit && npm install`
+20 error Exit status 1
+21 error Failed at the Wordpress-Starter-Kit@1.0.0 preinstall script 'git submodule add https://github.com/WordPress/WordPress.git wordpress && cd wordpress && git checkout 4.2.2 && cd ../wp-content/themes/starter-kit && npm install'.
+21 error This is most likely a problem with the Wordpress-Starter-Kit package,
+21 error not with npm itself.
+21 error Tell the author that this fails on your system:
+21 error     git submodule add https://github.com/WordPress/WordPress.git wordpress && cd wordpress && git checkout 4.2.2 && cd ../wp-content/themes/starter-kit && npm install
+21 error You can get their info via:
+21 error     npm owner ls Wordpress-Starter-Kit
+21 error There is likely additional logging output above.
+22 verbose exit [ 1, true ]
