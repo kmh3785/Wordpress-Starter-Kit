@@ -19,7 +19,7 @@
       cache = require('gulp-cache'),
       livereload = require('gulp-livereload'),
       del = require('del'),
-      require('gulp-modernizr');
+      modernizr = require('gulp-modernizr');
 ;
 
 // Styles
